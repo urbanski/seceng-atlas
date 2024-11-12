@@ -1,0 +1,6 @@
+[submodule "sources/attack-stix-data"]
+	path = sources/attack-stix-data
+	url = https://github.com/mitre-attack/attack-stix-data.git
+[submodule "sources/gtfobins.github.io"]
+	path = sources/gtfobins.github.io
+	url = https://github.com/GTFOBins/GTFOBins.github.io
