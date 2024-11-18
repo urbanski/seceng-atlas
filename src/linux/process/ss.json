@@ -1,0 +1,12 @@
+{
+    "name": "Socket Statistics",
+    "filename": "ss",
+    "paths": [
+        "/usr/bin/ss",
+        "/bin/ss"
+    ],
+    "description": "ss is a utility to investigate sockets. It is used to dump socket statistics and displays information in a similar way to netstat. It can provide information about TCP, UDP, DCCP, RAW, and Unix domain sockets. The tool allows seeing what ports are open and what processes are using them. This aids in network troubleshooting and performance analysis.",
+    "capabilities": [
+        "network-monitoring"
+    ]
+}

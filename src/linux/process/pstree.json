@@ -1,0 +1,12 @@
+{
+    "name": "Process Tree Viewer",
+    "filename": "pstree",
+    "paths": [
+        "/usr/bin/pstree"
+    ],
+    "description": "pstree is a command-line utility that displays running processes as a tree. It is used to view the hierarchy of processes and threads in a system. By showing parent and child processes in a tree format, it helps in easily understanding the relationship between them. It can also show the process IDs alongside each process and has options to list the processes of all users.",
+    "capabilities": [
+        "process-listing",
+        "system-monitoring"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "name": "Whois Command",
+    "filename": "whois",
+    "paths": [
+        "/usr/bin/whois"
+    ],
+    "description": "The whois command is a client utility used to fetch information about an Internet resource, such as a domain name or an IP address range, from a remote whois database. It queries whois servers for details on domain registrations, IP allocations, and related entities. This tool is generally used by network administrators and curious individuals to find the ownership and administrative details of Internet resources. It is commonly used in security research, to track down spammers, or for general informational purposes regarding the registration of domains.",
+    "capabilities": [
+        "information-gathering"
+    ]
+}

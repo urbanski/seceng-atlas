@@ -1,0 +1,13 @@
+{
+    "name": "disown",
+    "filename": "disown",
+    "paths": [
+        "/usr/bin/disown",
+        "/bin/disown"
+    ],
+    "description": "Disown is a shell built-in command that removes jobs from the job table of the current shell session, which results in the shell not sending a SIGHUP to disowned jobs when the shell session is terminated. This command is primarily used to detach a running process from the current shell session, allowing it to continue running in the background even after the user logs out. This can be particularly useful for long-running processes that do not require user interaction.",
+    "capabilities": [
+        "background-processing",
+        "session-detachment"
+    ]
+}

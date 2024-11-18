@@ -1,0 +1,14 @@
+{
+    "name": "Tar",
+    "filename": "tar",
+    "paths": [
+        "/bin/tar",
+        "/usr/bin/tar"
+    ],
+    "description": "Tar is an archiving utility that is used to store and extract files from a tape or disk archive. It supports various types of compression formats and is commonly used for backup and transferring data in a single file. Tar is capable of creating archives and extracting archives, and it can work directly with compressed archives using gzip and bzip capabilities.",
+    "capabilities": [
+        "file-upload",
+        "file-download",
+        "shell-command-execution"
+    ]
+}

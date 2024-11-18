@@ -1,0 +1,15 @@
+{
+    "name": "Ruby Interpreter",
+    "filename": "ruby",
+    "paths": [
+        "/usr/bin/ruby",
+        "/usr/local/bin/ruby"
+    ],
+    "description": "Ruby is a dynamic, open source programming language with a focus on simplicity and productivity. It has an elegant syntax that is natural to read and easy to write. Ruby is commonly used for web development, particularly with the Ruby on Rails framework, and for development of internal tools and scripts. It supports multiple programming paradigms, including procedural, object-oriented, and functional programming. Ruby can be used to create a wide range of applications, from simple scripts to complex web applications.",
+    "capabilities": [
+        "file-upload",
+        "file-download",
+        "sudo",
+        "execute-code"
+    ]
+}

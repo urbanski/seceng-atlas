@@ -1,0 +1,13 @@
+{
+    "name": "Base64 Encoder/Decoder",
+    "filename": "base64",
+    "paths": [
+        "/usr/bin/base64",
+        "/bin/base64"
+    ],
+    "description": "Base64 is a command-line utility that encodes and decodes data in the base64 format, used commonly for encoding binary data for storage and transmission in text-based formats. It is particularly useful in handling data that may not be safely echoed or stored directly, such as binary images or data with non-printable characters.",
+    "capabilities": [
+        "data-encoding",
+        "data-decoding"
+    ]
+}

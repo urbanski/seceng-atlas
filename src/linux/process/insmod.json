@@ -1,0 +1,14 @@
+{
+    "name": "Insert Module",
+    "filename": "insmod",
+    "paths": [
+        "/sbin/insmod",
+        "/usr/sbin/insmod"
+    ],
+    "description": "insmod is a simple program used to insert a module into the Linux kernel. This utility is essential for system administrators when adding new functionality to the running kernel without requiring a reboot. Common uses include loading device drivers and kernel extensions. Due to its nature, insmod can be misused if unauthorized access is gained, as it allows direct interaction with the kernel.",
+    "capabilities": [
+        "load-kernel-modules",
+        "modify-kernel",
+        "sudo"
+    ]
+}

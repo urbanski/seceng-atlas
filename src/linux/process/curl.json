@@ -1,0 +1,13 @@
+{
+    "name": "cURL",
+    "filename": "curl",
+    "paths": [
+        "/usr/bin/curl",
+        "/bin/curl"
+    ],
+    "description": "cURL is a command-line tool used for transferring data with URLs. It supports a variety of protocols including HTTP, HTTPS, FTP, FTPS, SCP, SFTP, and more. cURL is widely used for fetching and sending data from a server, making it useful for web scraping, REST API interactions, and automated file transfers. It can also be used for testing server security and performing file uploads and downloads across network protocols.",
+    "capabilities": [
+        "file-upload",
+        "file-download"
+    ]
+}

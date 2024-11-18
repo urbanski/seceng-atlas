@@ -1,0 +1,14 @@
+{
+    "name": "SSH Key Generator",
+    "filename": "ssh-keygen",
+    "paths": [
+        "/usr/bin/ssh-keygen",
+        "/bin/ssh-keygen"
+    ],
+    "description": "SSH Key Generator is a tool used to create, manage, and convert authentication keys for SSH. It allows users to generate public and private key pairs, which are essential for setting up key-based authentication in secure shell environments. This helps in automating logins and enhancing the security of SSH connections. The tool can also be used to generate RSA, DSA, ECDSA, and Ed25519 keys and comes with options to manage key size and passphrase.",
+    "capabilities": [
+        "file-upload",
+        "file-download",
+        "sudo"
+    ]
+}

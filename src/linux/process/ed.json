@@ -1,0 +1,12 @@
+{
+    "name": "GNU ed",
+    "filename": "ed",
+    "paths": [
+        "/bin/ed",
+        "/usr/bin/ed"
+    ],
+    "description": "GNU ed is a line-oriented text editor. It is used to create, display, modify and otherwise manipulate text files, both interactively and via shell scripts. A restricted version of ed, red, can only edit files in the current directory and cannot execute shell commands. Ed is the 'standard' text editor in the sense that it is the original editor for Unix, and thus widely available. For most purposes, however, it is superseded by full-screen editors such as nano and vim.",
+    "capabilities": [
+        "file-manipulation"
+    ]
+}

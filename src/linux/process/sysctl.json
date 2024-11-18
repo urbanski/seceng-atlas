@@ -1,0 +1,14 @@
+{
+    "name": "Sysctl",
+    "filename": "sysctl",
+    "paths": [
+        "/sbin/sysctl",
+        "/usr/sbin/sysctl"
+    ],
+    "description": "Sysctl is used to modify kernel parameters at runtime. It is primarily used for configuring various kernel settings related to hardware and software operation directly from the command line. This utility is common in various Linux distributions for managing system dynamics without requiring reboots. Sysctl can adjust everything from memory management and kernel scheduling, to network settings and security configurations. Administrators use this tool for optimizing system performance, enhancing security, and applying necessary system updates on-the-fly.",
+    "capabilities": [
+        "configure-kernel",
+        "view-kernel-settings",
+        "sudo"
+    ]
+}

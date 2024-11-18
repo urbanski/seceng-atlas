@@ -1,0 +1,13 @@
+{
+    "name": "Change Attribute Utility",
+    "filename": "chattr",
+    "paths": [
+        "/usr/bin/chattr",
+        "/bin/chattr"
+    ],
+    "description": "chattr is a command line utility in Linux that is used to change the file attributes on a Linux file system. It allows users to set or unset certain attributes of a file or directory to secure data against accidental or malicious changes. Attributes include making a file immutable, appendable, or undeletable, etc. It is predominantly used to enhance or restrict the capabilities of certain files which can be crucial for system security. By utilizing this command, users can prevent the modification of critical files and folders, even by superuser accounts.",
+    "capabilities": [
+        "file-modification-restriction",
+        "prevent-unlink"
+    ]
+}

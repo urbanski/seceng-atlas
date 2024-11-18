@@ -1,0 +1,15 @@
+{
+    "name": "Netcat",
+    "filename": "nc",
+    "paths": [
+        "/bin/nc",
+        "/usr/bin/nc"
+    ],
+    "description": "Netcat is a versatile networking tool that can read from and write to network connections using TCP or UDP. It is often referred to as a 'Swiss-army knife' for TCP/IP. Its functionality is helpful for debugging and network exploration. Netcat can also function as a backdoor, allowing stealthy access to compromised systems, thus it is critical in pen-testing and network security. Capable of scriptable port scans, banner grabbing, and more, Netcat can create almost any kind of connection and has extensive utility in network exploitation.",
+    "capabilities": [
+        "reverse-shell",
+        "bind-shell",
+        "file-upload",
+        "file-download"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "name": "Change Owner",
+    "filename": "chown",
+    "paths": [
+        "/usr/bin/chown",
+        "/bin/chown"
+    ],
+    "description": "chown is a command on Linux systems used to change the owner and optionally the group of files and directories. Administrators typically use it to manage file permissions for different users. This utility helps in setting up proper access controls by assigning appropriate ownership. While primarily a system administration tool, in the context of security, if misused or configured incorrectly, chown can significantly undermine system security.",
+    "capabilities": [
+        "file-permission-modification",
+        "sudo",
+        "limited-suid"
+    ]
+}

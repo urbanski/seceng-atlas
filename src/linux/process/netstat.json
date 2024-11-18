@@ -1,0 +1,13 @@
+{
+    "name": "Netstat",
+    "filename": "netstat",
+    "paths": [
+        "/bin/netstat",
+        "/usr/bin/netstat"
+    ],
+    "description": "Netstat is a command-line tool used for displaying network connections, routing tables, interface statistics, masquerade connections, multicast memberships, and more. It is predominantly used for diagnosing network and connection issues. Netstat provides insights on both incoming and outgoing connections as well as listening ports and the associated services, which can help in security and traffic analysis.",
+    "capabilities": [
+        "network-monitoring",
+        "diagnose-connections"
+    ]
+}

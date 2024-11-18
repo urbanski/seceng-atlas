@@ -1,0 +1,13 @@
+{
+    "name": "GNU Shred",
+    "filename": "shred",
+    "paths": [
+        "/usr/bin/shred",
+        "/bin/shred"
+    ],
+    "description": "GNU Shred is used for securely deleting files from a computer's file system. It overwrites the specified file repeatedly, in order to make it harder for data recovery software to recover the file data. It's commonly used to enhance privacy and security by ensuring that deleted files are beyond recovery. Shred works on file systems that do not perform journaling such as ext2, but it may be less effective or ineffective on journaling file systems like ext3 or ext4.",
+    "capabilities": [
+        "file-deletion",
+        "prevent-data-recovery"
+    ]
+}

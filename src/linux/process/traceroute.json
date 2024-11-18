@@ -1,0 +1,12 @@
+{
+    "name": "Traceroute",
+    "filename": "traceroute",
+    "paths": [
+        "/usr/bin/traceroute",
+        "/bin/traceroute"
+    ],
+    "description": "Traceroute is a network diagnostic tool used to track the pathway taken by a packet across an IP network from source to destination. It reports the IP addresses of all the routers in between, thereby showing the route taken and measuring transit delays of packets across an IP network. The utility is used for diagnosing network routing issues and seeing transit delays.",
+    "capabilities": [
+        "network-mapping"
+    ]
+}

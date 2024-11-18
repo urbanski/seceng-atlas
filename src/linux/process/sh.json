@@ -1,0 +1,15 @@
+{
+    "name": "Bourne shell",
+    "filename": "sh",
+    "paths": [
+        "/bin/sh",
+        "/usr/bin/sh"
+    ],
+    "description": "The Bourne shell (sh) is a shell, or command-line interpreter, for Unix and Unix-like operating systems. It was originally developed by Stephen Bourne at AT&T's Bell Labs. The Bourne shell provides a text-based interface where users can enter commands to perform tasks such as file management, running applications, and scripting. sh is widely known for its simplicity and effectiveness, especially in scripting and automating system tasks. It is also used as a default shell in many Linux distributions when bash is not available.",
+    "capabilities": [
+        "file-upload",
+        "file-download",
+        "limited-suid",
+        "script-execution"
+    ]
+}

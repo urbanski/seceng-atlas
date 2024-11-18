@@ -1,0 +1,12 @@
+{
+    "name": "Display Message",
+    "filename": "dmesg",
+    "paths": [
+        "/bin/dmesg",
+        "/usr/bin/dmesg"
+    ],
+    "description": "dmesg is used to display the kernel-related messages in Unix-like operating systems. It helps users and administrators to review messages from the kernel, diagnose system hardware issues, and troubleshoot hardware driver problems. This tool is useful particularly after system boot, or to examine the condition of hardware, drivers, and perform system diagnostics.",
+    "capabilities": [
+        "view-system-logs"
+    ]
+}

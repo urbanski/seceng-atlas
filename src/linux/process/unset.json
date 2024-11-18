@@ -1,0 +1,12 @@
+{
+    "name": "Unset",
+    "filename": "unset",
+    "paths": [
+        "/usr/bin/unset",
+        "/bin/unset"
+    ],
+    "description": "Unset is typically used to unset a shell variable in Linux. It effectively removes the variable from the environment, making it unavailable for subsequent processes. This utility is part of the broader suite of shell built-in commands that interact with environment variables. It is primarily used in scripting to make sure that no unintended or residual variables carry forward, potentially affecting script execution or security.",
+    "capabilities": [
+        "environment-manipulation"
+    ]
+}

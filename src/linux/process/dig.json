@@ -1,0 +1,12 @@
+{
+    "name": "DNS lookup utility",
+    "filename": "dig",
+    "paths": [
+        "/usr/bin/dig",
+        "/bin/dig"
+    ],
+    "description": "Dig (Domain Information Groper) is a flexible command-line tool for querying DNS servers. It is used to probe DNS servers and to diagnose and analyze DNS problems. Dig performs network lookups and provides detailed responses from queried DNS servers. This tool is commonly used by network administrators to troubleshoot DNS issues and by researchers to gather information about domain names. The functionality it provides is vital for maintaining the health of a network's domain name service.",
+    "capabilities": [
+        "network-query"
+    ]
+}

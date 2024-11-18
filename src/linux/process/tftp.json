@@ -1,0 +1,12 @@
+{
+    "name": "Trivial File Transfer Protocol Client",
+    "filename": "tftp",
+    "paths": [
+        "/usr/bin/tftp"
+    ],
+    "description": "TFTP is a simple protocol to transfer files, and typically uses UDP port 69. It is used where user authentication and directory visibility are not required. Unlike FTP, TFTP has no provision for user authentication, making it less secure. It's generally used for automated transfer of configuration or boot files between machines in a local environment like LANs.",
+    "capabilities": [
+        "file-upload",
+        "file-download"
+    ]
+}

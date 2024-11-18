@@ -1,0 +1,17 @@
+{
+    "name": "Python Interpreter",
+    "filename": "python",
+    "paths": [
+        "/usr/bin/python",
+        "/usr/local/bin/python"
+    ],
+    "description": "Python is a high-level, interpreted programming language with dynamic semantics. It is widely used for web development, scientific computing, artificial intelligence, data analysis, and automation. Python's simple, readable syntax emphasizes readability and therefore reduces the cost of program maintenance. Python supports modules and packages, which encourages program modularity and code reuse. The Python interpreter can be used to execute programs from command-line, making it suitable for scripting and rapid application development.",
+    "capabilities": [
+        "file-upload",
+        "file-download",
+        "execute-shell-commands",
+        "configuration-manipulation",
+        "scripting",
+        "bind-shell"
+    ]
+}

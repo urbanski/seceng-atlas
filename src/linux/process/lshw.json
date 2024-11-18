@@ -1,0 +1,12 @@
+{
+    "name": "Hardware Lister",
+    "filename": "lshw",
+    "paths": [
+        "/usr/bin/lshw",
+        "/sbin/lshw"
+    ],
+    "description": "lshw (Hardware Lister) is a small tool that provides detailed information on the hardware configuration of a Linux machine. It can report exact memory configuration, firmware version, mainboard configuration, CPU version and speed, cache configuration, bus speed, etc. It gathers information from different /proc files in the /proc directory. lshw has capabilities in listing hardware components that could be used to evaluate security profiles or aid in system diagnostics. Due to the extensive system hardware data it provides, it can be used for both legitimate and unauthorized data gathering scenarios.",
+    "capabilities": [
+        "hardware-enumeration"
+    ]
+}

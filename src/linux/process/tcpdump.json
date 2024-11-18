@@ -1,0 +1,15 @@
+{
+    "name": "Tcpdump",
+    "filename": "tcpdump",
+    "paths": [
+        "/usr/sbin/tcpdump",
+        "/usr/local/sbin/tcpdump"
+    ],
+    "description": "Tcpdump is a powerful command-line packet analyzer. Used primarily for network debugging and security monitoring, it intercepts and displays the traffic on a network that matches a specified condition. It is capable of capturing, dissecting, and analyzing the structure of packets and their content, including the data inside the packets. Tcpdump can be used to print all the packets on a network, filter packets based on a specific protocol, or capture packets that match a particular pattern.",
+    "capabilities": [
+        "network-monitoring",
+        "packet-analysis",
+        "filter-traffic",
+        "data-capture"
+    ]
+}

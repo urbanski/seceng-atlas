@@ -1,0 +1,12 @@
+{
+    "name": "stat",
+    "filename": "stat",
+    "paths": [
+        "/usr/bin/stat",
+        "/bin/stat"
+    ],
+    "description": "stat is a command-line utility that displays detailed information about given files or file systems. It is typically used to retrieve file-related metadata such as file size, permissions, ownership, and modification times. stat is useful for systems administration, scripting, and forensic analysis. It can be used to verify file integrity by comparing certain file attributes over time or detect changes in the filesystem. stat supports various formats for output, providing flexibility in how information is represented.",
+    "capabilities": [
+        "file-analysis"
+    ]
+}

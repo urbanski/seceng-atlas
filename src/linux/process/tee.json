@@ -1,0 +1,11 @@
+{
+    "name": "tee",
+    "filename": "tee",
+    "paths": [
+        "/usr/bin/tee"
+    ],
+    "description": "The tee command in Linux is used primarily in conjunction with other commands through piping. It reads the standard input and writes it to both the standard output and one or multiple files simultaneously, allowing the user to view the output and save it in a file. This can be essential for logging and debugging purposes, facilitating tasks that require both real-time monitoring and record keeping of outputs.",
+    "capabilities": [
+        "file-write"
+    ]
+}

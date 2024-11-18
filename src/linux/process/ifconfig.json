@@ -1,0 +1,15 @@
+{
+    "name": "Network Interface Configuration Tool",
+    "filename": "ifconfig",
+    "paths": [
+        "/sbin/ifconfig",
+        "/usr/sbin/ifconfig",
+        "/bin/ifconfig",
+        "/usr/bin/ifconfig"
+    ],
+    "description": "ifconfig is a system administration utility in Unix-like operating systems for network interface configuration. It is used to configure, manage, and query TCP/IP network interface parameters. ifconfig can be used to set up an interface to use IP, to enable or disable an interface, assign IP addresses, manage ARP cache, and much more. It allows viewing the network configuration, including the IP address, MAC address, subnet mask, and default gateway on each interface. It is commonly used for troubleshooting network issues and configuring network parameters on hosts.",
+    "capabilities": [
+        "network-configuration",
+        "network-information"
+    ]
+}

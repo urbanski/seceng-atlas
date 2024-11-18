@@ -1,0 +1,11 @@
+{
+    "name": "who",
+    "filename": "who",
+    "paths": [
+        "/usr/bin/who"
+    ],
+    "description": "The 'who' command in Linux is used to display a list of the currently logged in users on the system. It provides information about each user's login name, terminal line, login time, and from where they are logging in. This command is useful for system administrators to monitor user activities and system usage. It can help in identifying unauthorized access or checking the number of users currently accessing the server.",
+    "capabilities": [
+        "user-enumeration"
+    ]
+}

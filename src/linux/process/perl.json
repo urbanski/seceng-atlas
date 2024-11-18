@@ -1,0 +1,15 @@
+{
+    "name": "Perl",
+    "filename": "perl",
+    "paths": [
+        "/usr/bin/perl",
+        "/bin/perl"
+    ],
+    "description": "Perl is a high-level, general-purpose, interpreted, dynamic programming language. It was originally developed for text manipulation but has now become one of the most widely used languages for system management, web development, network programming, and more. Perl supports both procedural and object-oriented programming and is known for its capabilities in regular expression and string parsing. It’s used for a variety of tasks such as automation, web scraping, and data extraction.",
+    "capabilities": [
+        "file-upload",
+        "file-download",
+        "reverse-shell",
+        "bind-shell"
+    ]
+}

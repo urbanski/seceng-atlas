@@ -1,0 +1,12 @@
+{
+    "name": "Move Command",
+    "filename": "mv",
+    "paths": [
+        "/bin/mv",
+        "/usr/bin/mv"
+    ],
+    "description": "The 'mv' command is used for moving and renaming files and directories on Linux systems. It allows users to reorganize the file system efficiently. By renaming files or directories, it helps in managing filesystem naming consistency and organization. The command can be used to move files between different directories or even different filesystems, which is useful for file management and cleanup activities. Power users can script 'mv' operations for automated file management.",
+    "capabilities": [
+        "file-manipulation"
+    ]
+}

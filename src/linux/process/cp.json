@@ -1,0 +1,12 @@
+{
+    "name": "Copy",
+    "filename": "cp",
+    "paths": [
+        "/bin/cp",
+        "/usr/bin/cp"
+    ],
+    "description": "Copy is a Unix command line utility used to copy files and directories from one location to another. It can handle multiple source files and directories, copying them to a single destination directory. It provides options to control its behavior, such as overwriting existing files, copying directories recursively, and preserving file attributes.",
+    "capabilities": [
+        "file-manipulation"
+    ]
+}

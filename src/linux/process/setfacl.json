@@ -1,0 +1,13 @@
+{
+    "name": "setfacl",
+    "filename": "setfacl",
+    "paths": [
+        "/usr/bin/setfacl",
+        "/bin/setfacl"
+    ],
+    "description": "setfacl is a utility for manipulating Access Control Lists (ACLs) on Linux file systems. It allows users to define fine-grained access permissions for files and directories. setfacl is used to grant, modify or remove additional permissions to users and groups beyond what is specified by the standard file permissions. This tool is critical in environments where multiple users require different levels of access to specific data.",
+    "capabilities": [
+        "modify-file-permissions",
+        "privileged-access"
+    ]
+}

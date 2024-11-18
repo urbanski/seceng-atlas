@@ -1,0 +1,16 @@
+{
+    "name": "iptables",
+    "filename": "iptables",
+    "paths": [
+        "/sbin/iptables",
+        "/usr/sbin/iptables"
+    ],
+    "description": "iptables is a user-space utility program that allows a system administrator to configure the IP packet filter rules of the Linux kernel firewall, implemented as different Netfilter modules. The filters are organized in different tables, which contain chains of rules for processing incoming and outgoing packets. Rules within a chain can filter traffic by IP address, port, and protocol among other criteria. iptables is highly configurable and is used to maintain secure environments by precisely defining which packets are allowed to enter or leave a network interface.",
+    "capabilities": [
+        "firewall-configuration",
+        "network-monitoring",
+        "packet-filtering",
+        "traffic-management",
+        "security-policy-enforcement"
+    ]
+}

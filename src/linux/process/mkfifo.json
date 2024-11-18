@@ -1,0 +1,14 @@
+{
+    "name": "Make FIFO Special File",
+    "filename": "mkfifo",
+    "paths": [
+        "/usr/bin/mkfifo",
+        "/bin/mkfifo"
+    ],
+    "description": "mkfifo is a command used to create named pipes, also known as FIFO special files. Unlike a regular file that is stored on disk, reads and writes to a FIFO are handled internally by the kernel, making it a suitable inter-process communication mechanism. By using mkfifo, various processes can communicate with each other by reading and writing to the FIFO file, as long as they have access to the common path. This command is crucial for orchestrating coordinated operations without the need for more complex mechanisms like sockets or shared memory.",
+    "capabilities": [
+        "file-creation",
+        "inter-process-communication",
+        "orchestrator"
+    ]
+}

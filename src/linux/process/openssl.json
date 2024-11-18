@@ -1,0 +1,15 @@
+{
+    "name": "OpenSSL",
+    "filename": "openssl",
+    "paths": [
+        "/usr/bin/openssl",
+        "/bin/openssl"
+    ],
+    "description": "OpenSSL is a robust, commercial-grade, and full-featured toolkit for the Transport Layer Security (TLS) and Secure Sockets Layer (SSL) protocols. It is also a general-purpose cryptography library. OpenSSL is widely used to secure communications over computer networks against eavesdropping. It is also used for the creation of digital certificates which are used in authentication processes and encryption of various communications. OpenSSL contains an open-source implementation of the SSL and TLS protocols which provide essential security for network communications. The toolkit is vital for securing internet communication channels, such as in web servers, email services, and secure shell (SSH) connections.",
+    "capabilities": [
+        "file-download",
+        "file-upload",
+        "encryption",
+        "decryption"
+    ]
+}

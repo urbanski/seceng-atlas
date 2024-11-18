@@ -1,0 +1,14 @@
+{
+    "name": "Route",
+    "filename": "route",
+    "paths": [
+        "/sbin/route",
+        "/usr/sbin/route",
+        "/bin/route"
+    ],
+    "description": "Route is a command in Linux used to show and manipulate the IP routing table. It can be utilized to add, delete, or modify routes in the routing table, helping direct traffic to different networks or hosts. Security professionals should be vigilant as it can be used by attackers to redirect network traffic, potentially facilitating man-in-the-middle attacks or redirecting traffic to malicious hosts.",
+    "capabilities": [
+        "network-configuration",
+        "traffic-redirection"
+    ]
+}

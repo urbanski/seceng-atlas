@@ -1,0 +1,12 @@
+{
+    "name": "GNU Write",
+    "filename": "write",
+    "paths": [
+        "/usr/bin/write"
+    ],
+    "description": "GNU Write is used to send messages to another user in a real-time fashion. It allows one user to communicate directly to another user's terminal session. The messaging occurs via the terminal, requiring users to be logged into their terminals. It's primarily utilized in multi-user terminal environments. Write uses the TTY system to deliver messages. This can be useful or fun in collaborative environments but might be misused to send unwanted messages or carry out social engineering attacks.",
+    "capabilities": [
+        "message-send",
+        "user-interaction"
+    ]
+}

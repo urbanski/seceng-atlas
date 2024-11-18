@@ -1,0 +1,11 @@
+{
+    "name": "Locate",
+    "filename": "locate",
+    "paths": [
+        "/usr/bin/locate"
+    ],
+    "description": "The locate utility is a read-only command used to quickly find the paths of files and directories based on a database that stores updated information about all files and directories on the system. Conversely to the 'find' command which searches in real-time, locate's results depend on the freshness of its database, which is typically updated nightly by 'updatedb'. It provides a snapshot, making searches faster but potentially less accurate if files have been added or removed recently.",
+    "capabilities": [
+        "file-search"
+    ]
+}

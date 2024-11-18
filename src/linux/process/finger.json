@@ -1,0 +1,11 @@
+{
+    "name": "Finger",
+    "filename": "finger",
+    "paths": [
+        "/usr/bin/finger"
+    ],
+    "description": "Finger is a program that allows users to obtain a variety of information about a user on a network. It displays information like the user's name, login name, terminal name, write status, idle time, login time, office location, and office phone number. Primarily used in Unix and Unix-like operating systems, it can provide outputs both locally and remotely over the network.",
+    "capabilities": [
+        "information-disclosure"
+    ]
+}

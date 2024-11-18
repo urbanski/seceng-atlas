@@ -1,0 +1,13 @@
+{
+    "name": "GNU Gzip",
+    "filename": "gzip",
+    "paths": [
+        "/bin/gzip",
+        "/usr/bin/gzip"
+    ],
+    "description": "GNU Gzip is a software application used for file compression and decompression. Gzip stands for 'GNU zip', a reflection of its purpose as part of the GNU free software project. It typically operates in integration with another GNU utility, tar, allowing users to handle archive files with ease. It is commonly used in Unix and Linux distributions for file compression. Gzip utilizes the DEFLATE algorithm for compression, and it can be combined with tar (resulting in tar.gz or .tgz files) to archive and compress files collectively.",
+    "capabilities": [
+        "file-upload",
+        "file-download"
+    ]
+}

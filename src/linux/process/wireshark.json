@@ -1,0 +1,13 @@
+{
+    "name": "Wireshark",
+    "filename": "wireshark",
+    "paths": [
+        "/usr/bin/wireshark"
+    ],
+    "description": "Wireshark is a network protocol analyzer that enables users to capture and interactively browse the traffic running on a computer network. It provides deep inspection of hundreds of protocols and can be used on various operating systems, including Linux. Wireshark is commonly used for network troubleshooting, analysis, software and protocol development, and educational purposes. It provides a graphical user interface along with powerful filtering and analysis tools to dissect network traffic.",
+    "capabilities": [
+        "packet-capture",
+        "network-analysis",
+        "traffic-monitoring"
+    ]
+}

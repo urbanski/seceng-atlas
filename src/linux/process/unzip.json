@@ -1,0 +1,13 @@
+{
+    "name": "Unzip",
+    "filename": "unzip",
+    "paths": [
+        "/usr/bin/unzip",
+        "/bin/unzip"
+    ],
+    "description": "Unzip is used to list, test, and extract compressed files in a ZIP archive. It supports several compression algorithms and features including password-protected files and multiple volumes. Unzip is primarily used for decompressing files downloaded from the internet or received through emails which helps in saving space and easier file sharing. It is often used in scripting and automation of file management tasks.",
+    "capabilities": [
+        "file-download",
+        "file-extraction"
+    ]
+}

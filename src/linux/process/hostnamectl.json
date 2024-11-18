@@ -1,0 +1,12 @@
+{
+    "name": "Hostname Control Utility",
+    "filename": "hostnamectl",
+    "paths": [
+        "/usr/bin/hostnamectl",
+        "/bin/hostnamectl"
+    ],
+    "description": "Hostnamectl is a utility for viewing and changing the hostname and related settings on a system. It is part of the systemd suite, which is a system and service manager for Linux operating systems. Hostnamectl allows users to view the current hostname, set a new hostname, and manage the static, pretty, and transient hostnames. The utility can also display the current deployment environment and other related settings like the icon name and chassis type.",
+    "capabilities": [
+        "modify-system-settings"
+    ]
+}

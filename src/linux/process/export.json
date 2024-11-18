@@ -1,0 +1,12 @@
+{
+    "name": "Export Command",
+    "filename": "export",
+    "paths": [
+        "/usr/bin/export",
+        "/bin/export"
+    ],
+    "description": "The 'export' command in Linux is used to set and export environment variables and functions to child processes of the shell. It marks an environment variable to be exported with any newly forked child processes and thus allows a child process to inherit all marked variables.",
+    "capabilities": [
+        "environment-manipulation"
+    ]
+}

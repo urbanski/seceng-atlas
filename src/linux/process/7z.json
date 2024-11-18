@@ -1,0 +1,15 @@
+{
+    "name": "7-Zip",
+    "filename": "7z",
+    "paths": [
+        "/usr/bin/7z",
+        "/usr/local/bin/7z"
+    ],
+    "description": "7-Zip is a file archiver with a high compression ratio. It is used to compress files into a variety of archive formats, the most common being 7z. It can also work with other archive formats such as ZIP, GZIP, TAR, and more. Users can employ it to package files, making them easier to transport and store. Additionally, it supports encryption and password protection of files, thereby ensuring secure file storage and transfer.",
+    "capabilities": [
+        "file-upload",
+        "file-download",
+        "file-archiving",
+        "file-encryption"
+    ]
+}

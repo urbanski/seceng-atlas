@@ -1,0 +1,12 @@
+{
+    "name": "Dmidecode",
+    "filename": "dmidecode",
+    "paths": [
+        "/usr/sbin/dmidecode",
+        "/usr/local/sbin/dmidecode"
+    ],
+    "description": "Dmidecode is a tool used on Linux systems to extract hardware information from the BIOS. It allows users to dump a computer's DMI (Desktop Management Interface) table contents in a human-readable format. This information typically includes system model, CPU, memory capacity, and BIOS version among other things. The tool does not interface directly with the hardware but instead works through the BIOS, thus making it available only on systems that support DMI.",
+    "capabilities": [
+        "information-disclosure"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "name": "tail",
+    "filename": "tail",
+    "paths": [
+        "/usr/bin/tail",
+        "/bin/tail"
+    ],
+    "description": "The tail command is used in Linux for outputting the last part of files. It can display the last lines of a file directly to the terminal or save them to a new file. By default, it shows the last 10 lines of the specified files. Tail is particularly useful for viewing the end of long files, monitoring log files in real-time, or providing updates when a file is appended. This command is commonly used for troubleshooting and monitoring system operations within a Linux environment.",
+    "capabilities": [
+        "file-read",
+        "log-monitor"
+    ]
+}

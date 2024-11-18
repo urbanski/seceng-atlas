@@ -1,0 +1,12 @@
+{
+    "name": "Head Command",
+    "filename": "head",
+    "paths": [
+        "/usr/bin/head",
+        "/bin/head"
+    ],
+    "description": "The head command is used to display the first few lines of a text file or piped data. It is commonly used to view the beginning of large files without needing to open the entire file, which can be especially useful for quickly checking data or log files. Developers and system administrators often use this command to spot-check log configurations and startup messages of applications. It can be combined with other piping operations to manipulate or inspect data efficiently in script automation.",
+    "capabilities": [
+        "file-read"
+    ]
+}

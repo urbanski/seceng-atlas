@@ -1,0 +1,14 @@
+{
+    "name": "Cron",
+    "filename": "cron",
+    "paths": [
+        "/usr/sbin/cron",
+        "/etc/init.d/cron"
+    ],
+    "description": "Cron is a time-based job scheduler in Unix-like operating systems. Users can schedule jobs (commands or scripts) to run periodically at fixed times, dates, or intervals. It typically automates system maintenance or administration tasks, such as backups or system updates. It can also be used to schedule any other job, such as sending out periodic emails or running custom scripts.",
+    "capabilities": [
+        "scheduled-execution",
+        "periodic-task",
+        "autostart"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "name": "strace",
+    "filename": "strace",
+    "paths": [
+        "/usr/bin/strace"
+    ],
+    "description": "strace is a diagnostic, debugging, and instructional userspace utility for Linux. It is used to monitor and tamper with interactions between processes and the Linux kernel, which include system calls, signal deliveries, and changes of process state. The tool provides a means of tracking the functionality of a system and its applications at a granular level. It is commonly utilized for debugging issues within system calls, capturing system interactions for analysis, or determining how a program interacts with the operating system.",
+    "capabilities": [
+        "monitor-system-calls",
+        "debugging",
+        "diagnostic"
+    ]
+}

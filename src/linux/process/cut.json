@@ -1,0 +1,14 @@
+{
+    "name": "Cut Command",
+    "filename": "cut",
+    "paths": [
+        "/usr/bin/cut",
+        "/bin/cut"
+    ],
+    "description": "The cut command in Linux is used to remove sections from each line of files. It can be used to cut parts of a line by byte position, character, and field. This utility reads input from standard input or from a list of files and writes to standard output. It's useful for scripting and data preprocessing for more complex commands or scripts. For example, it can extract columns of text from a CSV file or reformat output of another command. This makes it an indispensable tool in text processing tasks common in system administration and scripting environments.",
+    "capabilities": [
+        "text-manipulation",
+        "data-extraction",
+        "scripting-tool"
+    ]
+}

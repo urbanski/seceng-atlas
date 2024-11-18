@@ -1,0 +1,13 @@
+{
+    "name": "Crontab",
+    "filename": "crontab",
+    "paths": [
+        "/usr/bin/crontab",
+        "/bin/crontab"
+    ],
+    "description": "Crontab is a Unix command that creates and manipulates the cron jobs for the system's cron daemon, allowing users to schedule tasks to be executed periodically. It provides a means for automating regular end-user tasks, system maintenance, and administration. The user can set up schedules for the execution of scripts or commands at specified times or intervals, leveraging cron's functionality. The typical usage involves editing a crontab file which lists scripts or commands and their execution times.",
+    "capabilities": [
+        "scheduled-tasks",
+        "system-automation"
+    ]
+}

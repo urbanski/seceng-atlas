@@ -1,0 +1,13 @@
+{
+    "name": "blkdiscard",
+    "filename": "blkdiscard",
+    "paths": [
+        "/usr/sbin/blkdiscard",
+        "/sbin/blkdiscard"
+    ],
+    "description": "blkdiscard is a command-line utility designed for Linux that enables users to discard device sectors on storage devices that support the discard operation. This tool is primarily used to inform SSDs and other flash storage devices which blocks are no longer in use and can be wiped internally, helping to maintain the performance and longevity of the device. blkdiscard is used often in administrative tasks for storage optimization and is useful in scenarios where it's desirable to securely erase data or prepare devices for decommissioning.",
+    "capabilities": [
+        "storage-management",
+        "data-wipe"
+    ]
+}

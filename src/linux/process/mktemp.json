@@ -1,0 +1,12 @@
+{
+    "name": "Temporary File Creator",
+    "filename": "mktemp",
+    "paths": [
+        "/bin/mktemp",
+        "/usr/bin/mktemp"
+    ],
+    "description": "mktemp is a utility used to create a temporary file or directory safely. It generates a unique file name and creates the specified file with access permissions set to only allow the owner to read and write the file. This tool is often used in shell scripts to securely handle temporary files without the risk of naming conflicts or information disclosure. mktemp supports various options to customize the prefix, suffix, and directory of the temporary files or directories it creates.",
+    "capabilities": [
+        "file-creation"
+    ]
+}

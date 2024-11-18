@@ -1,0 +1,15 @@
+{
+    "name": "IP Route",
+    "filename": "ip",
+    "paths": [
+        "/sbin/ip",
+        "/bin/ip",
+        "/usr/sbin/ip",
+        "/usr/bin/ip"
+    ],
+    "description": "IP Route (command used as 'ip r' or 'ip route') is utilized to display and manipulate the kernel's routing table. Typically used for configuring IP routing, which includes managing static routes and viewing route information. It is an essential utility for network administrators for diagnosing network connectivity issues and configuring network routing parameters.",
+    "capabilities": [
+        "network-configuration",
+        "network-monitoring"
+    ]
+}

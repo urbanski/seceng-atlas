@@ -1,0 +1,11 @@
+{
+    "name": "ID Command",
+    "filename": "id",
+    "paths": [
+        "/usr/bin/id"
+    ],
+    "description": "The id command on Linux is used to print real and effective user and group IDs. It is commonly utilized for user identity diagnostics and configurations. The command details a user's UID, GID, and groups to which the user belongs. This information is particularly useful for system administrators to verify which users and groups are active on the system, and to confirm the permissions and roles assigned to different users. This can help in troubleshooting access and permission issues.",
+    "capabilities": [
+        "information-disclosure"
+    ]
+}

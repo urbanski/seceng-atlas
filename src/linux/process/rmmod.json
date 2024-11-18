@@ -1,0 +1,12 @@
+{
+    "name": "Remove Kernel Module",
+    "filename": "rmmod",
+    "paths": [
+        "/sbin/rmmod",
+        "/usr/sbin/rmmod"
+    ],
+    "description": "rmmod is a command-line utility used to remove kernel modules from the Linux kernel. It is used primarily by system administrators when they need to unload a module from the kernel, which can be necessary for troubleshooting or when updating modules without rebooting the system. It requires administrative privileges to execute successfully. Users must know the exact name of the module they wish to remove, as the command does not support wildcards or partial names.",
+    "capabilities": [
+        "sudo"
+    ]
+}

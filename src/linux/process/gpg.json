@@ -1,0 +1,15 @@
+{
+    "name": "GNU Privacy Guard",
+    "filename": "gpg",
+    "paths": [
+        "/usr/bin/gpg",
+        "/bin/gpg"
+    ],
+    "description": "GNU Privacy Guard (GPG) is an encryption and signing tool that provides cryptographic privacy and authentication for data communication. GPG is used to encrypt information and create digital signatures. It functions primarily to secure sensitive data from unauthorized access and is widely utilized in email communications to ensure the confidentiality and integrity of the contents. GPG implements the OpenPGP standards and is compatible with similar software. It supports multiple encryption algorithms, key management facilities, and advanced capabilities like key revocation and expiration dates.",
+    "capabilities": [
+        "file-encrypt",
+        "file-decrypt",
+        "create-signatures",
+        "verify-signatures"
+    ]
+}

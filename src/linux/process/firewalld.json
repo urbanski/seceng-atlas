@@ -1,0 +1,13 @@
+{
+    "name": "Firewalld",
+    "filename": "firewalld",
+    "paths": [
+        "/usr/sbin/firewalld",
+        "/usr/bin/firewalld"
+    ],
+    "description": "Firewalld provides a dynamically managed firewall with support for network/firewall zones to define the trust level of network connections or interfaces. It uses policies, zones, and services, that allows to configure the firewall through a command-line interface or a graphical one. It is the default firewall management tool in many Linux distributions and supports IPv4, IPv6 firewall settings, and Ethernet bridges. Firewalld acts as a frontend for Linux's Netfilter framework. It allows for easier management of complex firewall rules by interfacing with kernel components. It is suitable for both stationary and network gateway machines.",
+    "capabilities": [
+        "network-management",
+        "firewall-settings"
+    ]
+}

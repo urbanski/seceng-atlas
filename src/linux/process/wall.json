@@ -1,0 +1,12 @@
+{
+    "name": "wall",
+    "filename": "wall",
+    "paths": [
+        "/usr/bin/wall",
+        "/bin/wall"
+    ],
+    "description": "wall sends a message to all users logged into a system. This command is typically used by system administrators to announce system maintenance or important updates. It works by writing a message to the terminals of all logged-in users. The message can be typed on the command line or read from a file.",
+    "capabilities": [
+        "broadcast-message"
+    ]
+}

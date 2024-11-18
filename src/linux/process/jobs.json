@@ -1,0 +1,12 @@
+{
+    "name": "Job Control",
+    "filename": "jobs",
+    "paths": [
+        "/usr/bin/jobs",
+        "/bin/jobs"
+    ],
+    "description": "The 'jobs' utility in Linux is a shell builtin command that lists the status of jobs started in the current terminal session. It provides information whether jobs are running, stopped, or terminated. This command helps users manage their jobs by displaying their state, which can be useful in multitasking environments and for script automation. It allows users to bring jobs to the foreground or background, and manage job execution effectively.",
+    "capabilities": [
+        "process-management"
+    ]
+}

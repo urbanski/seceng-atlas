@@ -1,0 +1,13 @@
+{
+    "name": "bzip2",
+    "filename": "bzip2",
+    "paths": [
+        "/bin/bzip2",
+        "/usr/bin/bzip2"
+    ],
+    "description": "bzip2 is a free and open-source file compression program that uses the Burrows–Wheeler algorithm. It typically compresses files to smaller sizes than gzip, which is another compression tool, offering better data compression. bzip2 is only suitable for compressing single files and not used for archiving multiple files. It is commonly used for distributing and exchanging large sets of data more efficiently by compressing them into a more manageable format.",
+    "capabilities": [
+        "file-download",
+        "file-upload"
+    ]
+}

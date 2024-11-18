@@ -1,0 +1,12 @@
+{
+    "name": "Kill",
+    "filename": "kill",
+    "paths": [
+        "/bin/kill",
+        "/usr/bin/kill"
+    ],
+    "description": "Kill is a utility used to terminate processes on a system, sent by signal to a process ID. It is commonly used by system administrators to end processes that are not responding or consuming too many resources. Signals such as SIGTERM and SIGKILL can be used to respectively request or forcefully terminate processes. Kill can send any signal to any process or group of processes, providing control over the behavior of running programs.",
+    "capabilities": [
+        "sudo"
+    ]
+}

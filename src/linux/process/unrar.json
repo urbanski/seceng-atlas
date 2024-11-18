@@ -1,0 +1,13 @@
+{
+    "name": "UnRAR",
+    "filename": "unrar",
+    "paths": [
+        "/usr/bin/unrar",
+        "/usr/local/bin/unrar"
+    ],
+    "description": "UnRAR is a utility used to extract, view, and test the contents of archives created with the RAR format. It supports a wide range of functionalities including repairing damaged archives and converting archives to different formats. UnRAR is predominantly used for decompressing files and is a vital tool for managing compressed files in RAR format on Linux systems.",
+    "capabilities": [
+        "file-download",
+        "file-extraction"
+    ]
+}

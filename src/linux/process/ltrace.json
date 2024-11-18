@@ -1,0 +1,15 @@
+{
+    "name": "ltrace",
+    "filename": "ltrace",
+    "paths": [
+        "/usr/bin/ltrace",
+        "/bin/ltrace"
+    ],
+    "description": "ltrace is a debugging program used to display the dynamic library calls made by a process when executing. It intercepts and records the dynamic library calls which are called by the executed process and the signals received by that process. It can also intercept and print the system calls executed by the program. It is useful for tracking down library-related problems or for getting a grasp of what a new or unfamiliar program does.",
+    "capabilities": [
+        "debugging",
+        "trace-library-calls",
+        "trace-system-calls",
+        "performance-analysis"
+    ]
+}

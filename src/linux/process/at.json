@@ -1,0 +1,11 @@
+{
+    "name": "at",
+    "filename": "at",
+    "paths": [
+        "/usr/bin/at"
+    ],
+    "description": "The 'at' utility in Linux is used for scheduling commands to be executed once at a particular time in the future. Users can submit jobs which 'at' will execute at specified times, provided the system is running. It reads commands from standard input or a specified file. This utility is commonly used for one-time tasks that need to run at a specific time, maintaining flexibility in automated job scheduling.",
+    "capabilities": [
+        "scheduled-tasks"
+    ]
+}

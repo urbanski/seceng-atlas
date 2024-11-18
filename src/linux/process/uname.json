@@ -1,0 +1,12 @@
+{
+    "name": "Unix Name",
+    "filename": "uname",
+    "paths": [
+        "/bin/uname",
+        "/usr/bin/uname"
+    ],
+    "description": "The uname executable provides information about the system on which the Linux operating system is running. It can display the system kernel name, network node hostname, kernel release, kernel version, machine hardware name, processor type, hardware platform, and the operating system. Typically used for system diagnosis and configuration.",
+    "capabilities": [
+        "information-disclosure"
+    ]
+}

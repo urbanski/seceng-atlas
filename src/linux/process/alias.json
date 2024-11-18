@@ -1,0 +1,12 @@
+{
+    "name": "Alias Command",
+    "filename": "alias",
+    "paths": [
+        "/bin/alias",
+        "/usr/bin/alias"
+    ],
+    "description": "The 'alias' command in Linux is used for creating aliases for other commands. It allows users to define shorthand commands that will expand to full commands or series of commands, simplifying lengthy command sequences and increasing productivity. For example, a user can alias 'l' to 'ls -al' to shorten the command needed to list directory contents in detailed format. It is commonly used in interactive shell sessions but can also be permanently set in user's shell configuration files like .bashrc or .bash_profile.",
+    "capabilities": [
+        "execute-arbitrary-commands"
+    ]
+}

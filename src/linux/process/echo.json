@@ -1,0 +1,10 @@
+{
+    "name": "Echo",
+    "filename": "echo",
+    "paths": [
+        "/bin/echo",
+        "/usr/bin/echo"
+    ],
+    "description": "Echo is a command used in shell scripts and in direct command execution in Linux. It displays a line of text/string that is passed as an argument. This command is typically used for conveying messages to the user or for outputting the results within a script or outputting system values to the console.",
+    "capabilities": []
+}

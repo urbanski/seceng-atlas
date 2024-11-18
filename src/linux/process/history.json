@@ -1,0 +1,13 @@
+{
+    "name": "Command History",
+    "filename": "history",
+    "paths": [
+        "/usr/bin/history",
+        "/bin/history"
+    ],
+    "description": "The 'history' command is used in Linux to display the user's command history, providing a list of commands previously executed in the terminal. This allows users to review or repeat commands at a later time. In cybersecurity, monitoring or capturing command history can be useful for understanding user behavior or for forensic analysis. However, it can also expose sensitive commands or operations to an adversary if accessed.",
+    "capabilities": [
+        "monitor-commands",
+        "forensic-analysis"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "name": "Unalias",
+    "filename": "unalias",
+    "paths": [
+        "/usr/bin/unalias",
+        "/bin/unalias"
+    ],
+    "description": "Unalias is used to remove entries from the current user's list of aliases. It lets the user revert to using the system's default commands that were being overridden by aliases. This is particularly useful for script writing and session management where a user needs to ensure default execution of commands without interference from previously set aliases.",
+    "capabilities": []
+}

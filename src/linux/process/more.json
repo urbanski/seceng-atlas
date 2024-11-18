@@ -1,0 +1,12 @@
+{
+    "name": "More",
+    "filename": "more",
+    "paths": [
+        "/usr/bin/more",
+        "/bin/more"
+    ],
+    "description": "More is a command for displaying the contents of a file or output one screen at a time in Unix-based operating systems. It allows the user to scroll through text files and program output by page or line. This is particularly useful for viewing long files or results where scrolling back through the terminal is not practical. The command can also be used to run commands that produce output longer than one screen by piping them through more. This utility is less powerful than similar tools like 'less', which provides more advanced features such as backward movement in the file.",
+    "capabilities": [
+        "file-download"
+    ]
+}

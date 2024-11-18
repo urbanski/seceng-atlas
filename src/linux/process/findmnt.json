@@ -1,0 +1,12 @@
+{
+    "name": "Findmnt",
+    "filename": "findmnt",
+    "paths": [
+        "/bin/findmnt",
+        "/usr/bin/findmnt"
+    ],
+    "description": "Findmnt is a utility that locates and displays information about the various filesystem mounts in a Linux system. It parses /etc/fstab, /etc/mtab or /proc/self/mountinfo files to provide formatted output of filesystems and their mount points. The tool allows users to see mount properties like options, source, and destination of the mounts. Findmnt supports filtering and real-time monitoring of filesystem events, making management of mounts effective and user-friendly. It is particularly useful for system administrators and engineers for troubleshooting and system maintenance purposes.",
+    "capabilities": [
+        "system-monitoring"
+    ]
+}
