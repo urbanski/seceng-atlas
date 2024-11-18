@@ -1,4 +1,3 @@
-```json
 {
     "name": "Head Command",
     "filename": "head",
@@ -8,4 +7,3 @@
     "description": "The 'head' command is used to output the first part of files to the terminal. It is commonly utilized to view the beginning of large files or streams without opening the entire file. Users can specify the number of lines to show. It serves as a convenient way to preview data or logs. This tool is often used in scripting and data analysis to quickly check or process file headers.",
     "capabilities": []
 }
-```

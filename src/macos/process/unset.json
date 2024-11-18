@@ -1,4 +1,3 @@
-```json
 {
     "name": "Unset Environment Variable",
     "filename": "unset",
@@ -11,4 +10,3 @@
         "environment-manipulation"
     ]
 }
-```
