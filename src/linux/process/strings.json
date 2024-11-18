@@ -1,0 +1,12 @@
+{
+    "name": "GNU strings",
+    "filename": "strings",
+    "paths": [
+        "/usr/bin/strings",
+        "/bin/strings"
+    ],
+    "description": "GNU strings is a utility found in many Linux distributions. It is primarily used for identifying printable strings in a file or data. This command is useful for recognizing contents without needing to open it manually in a text editor, especially beneficial with binary files. It's extensively used by programmers and system administrators for debugging purposes or analyzing binary executables and other data files. Security professionals also employ strings to examine potential malware in executables.",
+    "capabilities": [
+        "file-analysis"
+    ]
+}

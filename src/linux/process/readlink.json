@@ -1,0 +1,12 @@
+{
+    "name": "GNU readlink",
+    "filename": "readlink",
+    "paths": [
+        "/usr/bin/readlink",
+        "/bin/readlink"
+    ],
+    "description": "GNU readlink command prints the value of a symbolic link or canonical file name. It helps in resolving symbolic links to determine the actual path a link points to. This utility is commonly used in scripting and programming to ensure that operations intended for a particular file target the correct file when symbolic links are encountered. It is used to handle files in a more informed way, enhancing both the functionality and security of scripts and programs.",
+    "capabilities": [
+        "file-read"
+    ]
+}

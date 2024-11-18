@@ -1,0 +1,13 @@
+{
+    "name": "dd Utility",
+    "filename": "dd",
+    "paths": [
+        "/bin/dd",
+        "/usr/bin/dd"
+    ],
+    "description": "The dd utility is a command-line tool used on Unix-like operating systems, primarily for low-level data processing and manipulation. It is often employed for tasks such as copying and converting raw data from one format to another, creating exact images of disk drives, backing up and restoring entire disks, and directly editing files or device storage. Its functionality is essential for system management, allowing precise control over data and its flow between media or files.",
+    "capabilities": [
+        "file-download",
+        "file-upload"
+    ]
+}

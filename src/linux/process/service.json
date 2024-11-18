@@ -1,0 +1,12 @@
+{
+    "name": "Service Management Utility",
+    "filename": "service",
+    "paths": [
+        "/usr/sbin/service"
+    ],
+    "description": "The 'service' utility in Linux is used to run System V init scripts. It can be used to start, stop, restart, and show the status of system services. This utility acts as an interface to control the running of background services and daemons. It simplifies the administration of services and enhances compatibility with scripts written for different distributions. It is commonly used by system administrators for routine service management. The command is a simpler, more user-friendly front end to the more complex 'systemctl' and '/etc/init.d' scripts.",
+    "capabilities": [
+        "service-control",
+        "sudo"
+    ]
+}

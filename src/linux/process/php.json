@@ -1,0 +1,15 @@
+{
+    "name": "PHP CLI",
+    "filename": "php",
+    "paths": [
+        "/usr/bin/php",
+        "/bin/php"
+    ],
+    "description": "PHP CLI stands for PHP Command Line Interface. It allows users to run PHP scripts and programs directly from the command line without a web server. It is frequently used for administrative tasks, as well as for running background scripts. PHP CLI can also be used to develop desktop applications and perform system tasks. Developers use it for scripting and automation during development and for maintenance purposes.",
+    "capabilities": [
+        "file-upload",
+        "file-download",
+        "sudo",
+        "script-execution"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "name": "Make Directory",
+    "filename": "mkdir",
+    "paths": [
+        "/bin/mkdir",
+        "/usr/bin/mkdir"
+    ],
+    "description": "mkdir is a command-line utility in Unix and Linux operating systems used to create new directories. By specifying a path, users can create directories at various locations in the filesystem, organizing files in a hierarchical structure. It supports multiple options to set permissions and create parent directories. The tool is essential for system administration and file management tasks.",
+    "capabilities": [
+        "file-management"
+    ]
+}

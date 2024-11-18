@@ -1,0 +1,13 @@
+{
+    "name": "Killall Utility",
+    "filename": "killall",
+    "paths": [
+        "/usr/bin/killall",
+        "/bin/killall"
+    ],
+    "description": "Killall is a command-line utility available on Linux systems that enables users to terminate all processes running a specified program. By default, it sends a SIGTERM signal to all processes that are named as the command argument. This utility is useful for system administrators when they need to quickly stop all instances of a process. It can also send any signal to all processes of a user, useful during system shutdowns or restarts. As a potent tool, it requires careful handling to avoid inadvertently stopping critical system processes.",
+    "capabilities": [
+        "process-management",
+        "signal-sending"
+    ]
+}

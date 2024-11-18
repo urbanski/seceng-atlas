@@ -1,0 +1,13 @@
+{
+    "name": "Mount",
+    "filename": "mount",
+    "paths": [
+        "/bin/mount",
+        "/usr/bin/mount"
+    ],
+    "description": "Mount is used to attach a filesystem to a specific directory in the file system hierarchy. It is commonly utilized for mounting drives and partitions onto the Linux system. Administrators use mount to manage hardware and storage devices, making it central to system maintenance and setup. The command can handle mounting all types of filesystems used in Linux.",
+    "capabilities": [
+        "sudo",
+        "limited-suid"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "name": "OpenSSH Secure Shell",
+    "filename": "ssh",
+    "paths": [
+        "/usr/bin/ssh"
+    ],
+    "description": "SSH, or Secure Shell, is a security protocol that allows users to securely access a remote computer over an unsecured network. It facilitates safe data communications between two networks or between a client and a server. SSH provides strong password authentication and public key authentication, and encrypts the connection to increase security of data transfers. SSH is commonly used by network administrators to control web and other types of servers remotely. It is also used by individuals to securely transfer files over the internet and to manage their systems from remote locations.",
+    "capabilities": [
+        "file-download",
+        "file-upload",
+        "reverse-shell"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "name": "Ping",
+    "filename": "ping",
+    "paths": [
+        "/bin/ping",
+        "/usr/bin/ping"
+    ],
+    "description": "Ping is a network administration tool used for testing the reachability of a host on an Internet Protocol (IP) network and to measure the round-trip time for messages sent from the originating host to a destination computer. It operates by sending Internet Control Message Protocol (ICMP) Echo Request messages to the target host and waiting for an Echo Reply. This tool helps users diagnose network connectivity issues and measure network performance.",
+    "capabilities": [
+        "network-monitoring",
+        "network-connectivity-test",
+        "limited-suid"
+    ]
+}

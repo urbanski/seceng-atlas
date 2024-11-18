@@ -1,0 +1,13 @@
+{
+    "name": "SSH Authentication Key Manager",
+    "filename": "ssh-add",
+    "paths": [
+        "/usr/bin/ssh-add"
+    ],
+    "description": "ssh-add is a command used to add SSH private keys into the SSH authentication agent for implementing single sign-on with SSH. The program adds private key identities to the authentication agent, enabling the user to use the key without having to enter a passphrase with each use. This simplifies the process of logging into a remote host without compromising the security of the passphrase. It typically works with ssh-agent to load keys into the environment. ssh-add also provides the capability to list and delete keys currently added to the SSH agent.",
+    "capabilities": [
+        "encrypted-communication",
+        "user-authentication",
+        "no-passphrase-entry"
+    ]
+}

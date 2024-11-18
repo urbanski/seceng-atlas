@@ -1,0 +1,13 @@
+{
+    "name": "Python 3 Interpreter",
+    "filename": "python3",
+    "paths": [
+        "/usr/bin/python3"
+    ],
+    "description": "Python 3 is a high-level, interpreted, and dynamic programming language used for general-purpose programming. It supports multiple programming paradigms, including structured, object-oriented, and functional programming. Python 3 emphasizes code readability and allows developers to use fewer lines of code to express concepts than in other languages. It is widely used in web development, data analysis, artificial intelligence, scientific computing, and more.",
+    "capabilities": [
+        "file-upload",
+        "file-download",
+        "reverse-shell"
+    ]
+}

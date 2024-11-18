@@ -1,0 +1,12 @@
+{
+    "name": "Core Dump Control",
+    "filename": "coredumpctl",
+    "paths": [
+        "/usr/bin/coredumpctl"
+    ],
+    "description": "Core Dump Control (coredumpctl) is a utility found in systems using systemd, which is used to retrieve and process core dumps. This tool helps in debugging and analyzing the reasons for a program's termination, particularly when it crashes. It allows developers and administrators to access detailed information about the crashes and failures happening on the system, thus facilitating quicker debugging processes. It can query and display core dump data stored by systemd-coredump.",
+    "capabilities": [
+        "file-download",
+        "system-inspection"
+    ]
+}

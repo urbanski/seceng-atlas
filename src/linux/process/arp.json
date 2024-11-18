@@ -1,0 +1,12 @@
+{
+    "name": "Address Resolution Protocol Utility",
+    "filename": "arp",
+    "paths": [
+        "/usr/sbin/arp"
+    ],
+    "description": "The ARP command is used to view and manipulate the ARP cache on Unix-based systems. The utility allows users to add, delete, or show entries in the ARP cache. It primarily interacts with the IPv4 layer to resolve IP addresses into MAC addresses, which are required for network communications on Ethernet networks. This tool can be utilized for network diagnostics and troubleshooting, ensuring correct resolution of addresses on a local area network.",
+    "capabilities": [
+        "network-monitoring",
+        "network-configuration"
+    ]
+}

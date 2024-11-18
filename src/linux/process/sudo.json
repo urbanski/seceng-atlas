@@ -1,0 +1,12 @@
+{
+    "name": "sudo",
+    "filename": "sudo",
+    "paths": [
+        "/usr/bin/sudo"
+    ],
+    "description": "sudo (superuser do) is a program for Unix-like computer operating systems that allows users to run programs with the security privileges of another user, by default the superuser. It originally stood for 'superuser do' as the older versions of sudo were designed to run commands only as the superuser. Now, sudo is a powerful command that provides a mechanism for granting administrator privileges, traditionally reserved for root, to ordinary users in a controlled manner. The user's privileges are specified in the /etc/sudoers file by the system administrator, which details who can run what commands and from which terminals. This capability can be leveraged by hackers to execute commands with elevated privileges if they can access or manipulate the sudoers file.",
+    "capabilities": [
+        "sudo",
+        "limited-suid"
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "name": "Ncat",
+    "filename": "ncat",
+    "paths": [
+        "/usr/bin/ncat",
+        "/bin/ncat"
+    ],
+    "description": "Ncat is a versatile networking utility which reads and writes data across networks from the command line. Developed as part of the Nmap project, Ncat can be used for debugging, testing, and exploring network services. It can create virtually any kind of connection, including both TCP and UDP sockets, and it can serve as a client or server. Ncat also supports SSL connections and proxying for facilitating encrypted and intermediate network communications. Commonly used by network administrators for tasks like port scanning, Ncat can also be misused as a backdoor tool in security breaches.",
+    "capabilities": [
+        "reverse-shell",
+        "bind-shell",
+        "file-upload",
+        "file-download",
+        "proxy",
+        "port-scanning",
+        "ssl"
+    ]
+}

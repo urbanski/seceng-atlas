@@ -1,0 +1,13 @@
+{
+    "name": "Change File Modes",
+    "filename": "chmod",
+    "paths": [
+        "/usr/bin/chmod",
+        "/bin/chmod"
+    ],
+    "description": "chmod is a command on Linux systems used to change the permissions of a file or a directory. The command allows users to specify who can read, write, or execute the specified files or directories. This is crucial for managing the security and accessibility of files within the system. It operates by defining permission settings for the owner of the file, the group members, and others. The permissions control the ability to alter, execute, or view a file’s contents.",
+    "capabilities": [
+        "file-permission-modification",
+        "sudo"
+    ]
+}

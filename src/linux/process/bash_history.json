@@ -1,0 +1,12 @@
+{
+    "name": "Bash History",
+    "filename": ".bash_history",
+    "paths": [
+        "~/.bash_history"
+    ],
+    "description": "Bash history is a log file which contains a history of the commands entered by the user in the Bash shell. It allows users to review or repeat commands easily. The bash history can reveal command line activities, potentially exposing sensitive operations or intentions. Security-wise, gaining access to a user's bash history can provide insights into system configurations, regularly used commands, and could hint at potential vulnerabilities or misconfigurations.",
+    "capabilities": [
+        "file-download",
+        "information-disclosure"
+    ]
+}

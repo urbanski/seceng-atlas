@@ -1,0 +1,13 @@
+{
+    "name": "Host Lookup Utility",
+    "filename": "host",
+    "paths": [
+        "/usr/bin/host",
+        "/bin/host"
+    ],
+    "description": "The 'host' program is a utility used for DNS lookups on Linux systems. It is commonly used to find the IP address associated with a domain name, or the domain name associated with an IP address. This command can retrieve other types of DNS records such as MX records and NS records. It provides detailed information about host names, and is useful for debugging DNS related issues. The command is straightforward but can be powerful in extracting necessary network information.",
+    "capabilities": [
+        "information-disclosure",
+        "network-mapping"
+    ]
+}

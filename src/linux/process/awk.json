@@ -1,0 +1,16 @@
+{
+    "name": "AWK",
+    "filename": "awk",
+    "paths": [
+        "/usr/bin/awk",
+        "/bin/awk"
+    ],
+    "description": "AWK is a powerful text processing language that is used for pattern scanning and processing. It is typically used for data extraction and reporting. AWK can manipulate data and generate reports. The utility is capable of processing patterns within the text and perform actions on those patterns. It can be used for tasks such as text filtering, data summarization, and as part of complex script operations in Unix-like environments.",
+    "capabilities": [
+        "text-processing",
+        "report-generation",
+        "pattern-scanning",
+        "data-extraction",
+        "file-manipulation"
+    ]
+}

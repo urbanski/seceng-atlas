@@ -2,17 +2,19 @@
     "name": "Netcat",
     "filename": "nc",
     "paths": [
-        "/bin",
-        "/usr/bin",
-        "/usr/local/bin"
+        "/bin/nc",
+        "/usr/bin/nc",
+        "/usr/local/bin/nc"
     ],
-    "description": "Netcat is a computer networking utility for reading from and writing to network connections using TCP or UDP.",
+    "description": "Netcat is a versatile networking utility which can listen, create TCP or UDP connections, and open remote connections. It is often referred to as a 'Swiss-army knife for hackers' due to its broad utility in network operations and tasks, including debugging and investigation. Netcat can be used to transfer files, create backdoors, and even used in network daemons or servers. It is invaluable in scripting, network exploitation, and penetration testing.",
     "capabilities": [
         "reverse-shell",
         "bind-shell",
         "file-upload",
         "file-download",
-        "sudo",
-        "limited-suid"
+        "port-scanning",
+        "network-utility",
+        "network-debugging",
+        "scripting-tool"
     ]
 }

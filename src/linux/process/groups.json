@@ -1,0 +1,11 @@
+{
+    "name": "Groups",
+    "filename": "groups",
+    "paths": [
+        "/usr/bin/groups"
+    ],
+    "description": "Groups is a command-line utility in Linux that displays the groups to which a user belongs. It helps in managing permissions and organizing users based on different access rights. The command can be useful for administrators to verify the group memberships of users to enforce security policies, troubleshoot access issues, or audit user groups. Groups is straightforward to use and typically doesn't require elevated privileges, making it a simple but essential tool in systems management and security auditing.",
+    "capabilities": [
+        "user-enumeration"
+    ]
+}

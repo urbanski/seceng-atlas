@@ -1,0 +1,12 @@
+{
+    "name": "Hostname",
+    "filename": "hostname",
+    "paths": [
+        "/bin/hostname",
+        "/usr/bin/hostname"
+    ],
+    "description": "The hostname utility is used for showing or setting the system's host name. The host name can be used to identify the system on a network. It is commonly used in various network operations and is critical for both system administration and network communications. This utility is often utilized by scripts and system setups to verify or configure networking settings.",
+    "capabilities": [
+        "network-configuration"
+    ]
+}

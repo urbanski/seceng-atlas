@@ -1,0 +1,12 @@
+{
+    "name": "Transform Utility",
+    "filename": "tr",
+    "paths": [
+        "/usr/bin/tr",
+        "/bin/tr"
+    ],
+    "description": "The 'tr' utility in Linux is used for translating or deleting characters. It reads byte-oriented data from the standard input, writes to the standard output and allows users to manipulate text in various ways. It can be used for tasks such as replacing certain characters, converting lowercase to uppercase, or removing characters from input. 'tr' is typically utilized for basic text transformations in Unix-like operating systems. It does not directly allow file creation or execution but can be piped with other commands for more complex tasks.",
+    "capabilities": [
+        "text-manipulation"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "name": "printf",
+    "filename": "printf",
+    "paths": [
+        "/usr/bin/printf",
+        "/bin/printf"
+    ],
+    "description": "printf is a command-line utility in Unix and Unix-like operating systems used to format and output data. It is used to write formatted strings to standard output. The command is useful for producing precisely formatted output of data, characters, or numbers with various conversion specifications. It is often used in shell scripts to enhance the output or provide formatted data logging.",
+    "capabilities": [
+        "data-output"
+    ]
+}

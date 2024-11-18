@@ -1,0 +1,12 @@
+{
+    "name": "Swapoff",
+    "filename": "swapoff",
+    "paths": [
+        "/sbin/swapoff",
+        "/usr/sbin/swapoff"
+    ],
+    "description": "Swapoff is a command used to disable swapping on specified swap devices and swap files. It instructs the kernel to stop using swap devices or files as part of the virtual memory system. This command can help in system performance tuning or during the maintenance of swap-related storage. Use of swapoff is crucial when modifying swap settings or removing swap partitions. It requires administrative privileges to execute.",
+    "capabilities": [
+        "sudo"
+    ]
+}

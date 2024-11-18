@@ -1,0 +1,10 @@
+{
+    "name": "umask",
+    "filename": "umask",
+    "paths": [
+        "/bin/umask",
+        "/usr/bin/umask"
+    ],
+    "description": "umask (user file-creation mode mask) is a command used in Linux and Unix environments that allows a user to determine the default permissions for newly created files and directories. It enables the user to set file permissions restrictively or permissively by masking out permission bits from the system's default permissions. The umask command is important for maintaining security in a multi-user environment by controlling the accessibility of files as they are created. Administrators often use umask to ensure that files and directories are not overly permissive, thus reducing the risk of unauthorized access.",
+    "capabilities": []
+}

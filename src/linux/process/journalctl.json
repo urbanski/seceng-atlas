@@ -1,0 +1,13 @@
+{
+    "name": "System Journal Viewer",
+    "filename": "journalctl",
+    "paths": [
+        "/usr/bin/journalctl",
+        "/bin/journalctl"
+    ],
+    "description": "journalctl is the command-line utility used for querying and displaying logs from the systemd journal. It can be utilized to view systemd, kernel, and service logs. Users can filter the logs based on time, service, severity, and other criteria. This tool is crucial for system administrators for troubleshooting and monitoring system health. It provides detailed and realtime access to system logging information, making it an essential tool for maintaining system transparency and security.",
+    "capabilities": [
+        "log-analysis",
+        "view-system-logs"
+    ]
+}

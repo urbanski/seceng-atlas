@@ -1,0 +1,13 @@
+{
+    "name": "Visudo",
+    "filename": "visudo",
+    "paths": [
+        "/usr/sbin/visudo"
+    ],
+    "description": "Visudo is a command-line utility designed to safely edit the sudoers file, which controls the actions users can perform with the sudo command. It ensures syntax checks are performed before saving to avoid configuration errors that could potentially lock out administrative access. It is vital in systems where multiple user privileges need to be managed securely.",
+    "capabilities": [
+        "sudo",
+        "configuration-management",
+        "privileged-access"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "name": "FTP Client",
+    "filename": "ftp",
+    "paths": [
+        "/usr/bin/ftp",
+        "/usr/local/bin/ftp"
+    ],
+    "description": "FTP, the file transfer protocol's client, is a standard network protocol used for the transfer of computer files between a client and server on a computer network. FTP is built on a client-server model architecture using separate control and data connections between the client and the server. The FTP client allows users to authenticate to an FTP server, and to transfer files to and from the server. Users can manipulate remote file systems, upload files, and download files. It is particularly useful for the initial uploading of files to a server or for downloading files from a server, such as downloading patches from software vendors.",
+    "capabilities": [
+        "file-upload",
+        "file-download"
+    ]
+}

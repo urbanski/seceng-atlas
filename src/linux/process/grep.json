@@ -1,0 +1,13 @@
+{
+    "name": "GNU Grep",
+    "filename": "grep",
+    "paths": [
+        "/bin/grep",
+        "/usr/bin/grep"
+    ],
+    "description": "GNU Grep is a command-line utility in Unix and Linux systems used for searching plain-text data sets for lines that match a regular expression. Its name derives from the first letters of 'global/regular expression/print', a series of commands in the ed text editor. Grep outputs the matching lines, making it a powerful tool for filtering and searching text. The utility supports various command-line flags to enhance searches, such as case insensitivity, counting line matches, and displaying non-matching lines. Grep is widely utilized in scripting, data analysis, and software development for its efficiency and versatility in text parsing tasks.",
+    "capabilities": [
+        "text-search",
+        "regex-evaluation"
+    ]
+}

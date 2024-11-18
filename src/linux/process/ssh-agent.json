@@ -1,0 +1,12 @@
+{
+    "name": "SSH Authentication Agent",
+    "filename": "ssh-agent",
+    "paths": [
+        "/usr/bin/ssh-agent"
+    ],
+    "description": "SSH agent is a program to hold private keys used for public key authentication (RSA, DSA, ECDSA, etc.). It is intended to simplify the process of securely logging into SSH servers without having to re-enter passwords multiple times. The agent starts at the beginning of an X session or a login session, and all other windows or programs are started as clients to the SSH agent. This setup allows the user to use SSH-based authentication without having to expose private keys on disk or enter passwords frequently.",
+    "capabilities": [
+        "file-download",
+        "sudo"
+    ]
+}

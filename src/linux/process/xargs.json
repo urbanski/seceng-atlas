@@ -1,0 +1,13 @@
+{
+    "name": "xargs",
+    "filename": "xargs",
+    "paths": [
+        "/usr/bin/xargs"
+    ],
+    "description": "xargs is a command on Unix and Unix-like operating systems used to construct argument lists and execute utility. It reads items from the standard input, delimited by blanks (which can be protected with double or single quotes or a backslash) or newlines, and executes the specified command using the items as arguments. When used in a shell script, xargs can dynamically construct command lines to optimize how commands are invoked. This utility is useful in combination with other commands through shell piping, or for repurposing files and output as command arguments.",
+    "capabilities": [
+        "file-download",
+        "sudo",
+        "limited-suid"
+    ]
+}

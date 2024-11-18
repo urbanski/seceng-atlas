@@ -1,0 +1,13 @@
+{
+    "name": "GNU Find",
+    "filename": "find",
+    "paths": [
+        "/usr/bin/find",
+        "/bin/find"
+    ],
+    "description": "GNU Find is a utility that locates files on a computer based on conditions specified and can execute user-defined actions on the files found. It searches through a hierarchy of directories looking for files that meet a desired criteria and is a powerful tool for processing a wide range of actions on the found items.",
+    "capabilities": [
+        "file-search",
+        "execute-commands"
+    ]
+}

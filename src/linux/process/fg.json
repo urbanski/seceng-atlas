@@ -1,0 +1,12 @@
+{
+    "name": "Foreground Controller",
+    "filename": "fg",
+    "paths": [
+        "/usr/bin/fg",
+        "/bin/fg"
+    ],
+    "description": "fg, short for 'foreground', is a command used in UNIX and UNIX-like operating systems to continue a stopped job by bringing it to the foreground. It can be used to resume suspended jobs by moving them from the background to the foreground, making them the current job. This allows for direct interaction with the active terminal session. The fg command is essential for managing multitasking in a command-line environment.",
+    "capabilities": [
+        "process-management"
+    ]
+}

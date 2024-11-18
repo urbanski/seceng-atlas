@@ -1,0 +1,12 @@
+{
+    "name": "User Password Management",
+    "filename": "passwd",
+    "paths": [
+        "/usr/bin/passwd"
+    ],
+    "description": "The passwd command is used to change the password of a user's account. It allows users to update their passwords, keeping user accounts secure. This command can be accessed by the account holder or superuser. The changes are applied universally, regardless of the terminal or service the user is logged into. The passwd command is essential for maintaining password security and ensuring user authentication mechanisms are up to date. System administrators frequently use it to manage user authentication mechanisms.",
+    "capabilities": [
+        "sudo",
+        "limited-suid"
+    ]
+}

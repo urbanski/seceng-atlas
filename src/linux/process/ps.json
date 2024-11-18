@@ -1,0 +1,12 @@
+{
+    "name": "Process Status",
+    "filename": "ps",
+    "paths": [
+        "/bin/ps",
+        "/usr/bin/ps"
+    ],
+    "description": "The 'ps' command in Linux is used to display information about the currently running processes, including their process ID numbers (PIDs). This utility helps users and administrators monitor the activities and resource usage of active processes. 'ps' can provide details about the user running the process, CPU usage, memory usage, and the command line arguments that were used to start each process. It supports a variety of options to customize the output format and the details shown for better analysis and troubleshooting.",
+    "capabilities": [
+        "monitor-processes"
+    ]
+}

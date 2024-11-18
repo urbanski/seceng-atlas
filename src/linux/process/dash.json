@@ -1,0 +1,14 @@
+{
+    "name": "Debian Almquist Shell",
+    "filename": "dash",
+    "paths": [
+        "/bin/dash",
+        "/usr/bin/dash"
+    ],
+    "description": "Dash is a POSIX-compliant implementation of the Unix shell 'sh' that aims to be faster than its predecessors. It is typically used for executing system scripts and handling basic command-line tasks. While not as feature-rich as bash, dash is often used for its performance and low resource consumption, especially on systems where speed and efficiency are crucial. Dash is also the default shell for Debian's boot scripts.",
+    "capabilities": [
+        "sudo",
+        "limited-suid",
+        "script-execution"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Remove",
+    "filename": "rm",
+    "paths": [
+        "/bin/rm",
+        "/usr/bin/rm"
+    ],
+    "description": "The 'rm' command is used to remove objects such as files, directories, and symbolic links from the filesystem. It is a critical utility for managing filesystem contents in Linux and Unix systems. Care must be taken when using 'rm' as it does not place deleted items in a recoverable trash bin but permanently deletes them, which makes accidental loss of data possible. Common options include -r for recursive deletion, and -f to force deletion by ignoring nonexistent files and not prompting for confirmation.",
+    "capabilities": [
+        "file-delete",
+        "batch-file-manipulation"
+    ]
+}

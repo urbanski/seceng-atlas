@@ -1,0 +1,13 @@
+{
+    "name": "GNU Screen",
+    "filename": "screen",
+    "paths": [
+        "/usr/bin/screen"
+    ],
+    "description": "GNU Screen is a terminal multiplexer that allows for multiple separate terminal sessions to be accessed on a single screen. It's useful for detaching and reattaching sessions, managing multiple command-line interfaces concurrently, and keeping sessions running after disconnection. Screen can be particularly useful when managing servers remotely, allowing long-running processes to continue even when a user logs out.",
+    "capabilities": [
+        "session-management",
+        "detach-reattach",
+        "multi-user-access"
+    ]
+}

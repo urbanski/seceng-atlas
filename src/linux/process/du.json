@@ -1,0 +1,12 @@
+{
+    "name": "Disk Usage",
+    "filename": "du",
+    "paths": [
+        "/usr/bin/du",
+        "/bin/du"
+    ],
+    "description": "The 'du' command, short for disk usage, is used to estimate the file space usage of a given directory or file on Unix and Unix-like systems. It provides options to summarize the usage by recursively analyzing directories. The command helps in understanding how space is utilized and can point out large files or directories. It supports various formats for displaying output and allows filtering based on size thresholds. 'du' is essential for system administrators and users who need to manage disk space effectively.",
+    "capabilities": [
+        "file-read"
+    ]
+}

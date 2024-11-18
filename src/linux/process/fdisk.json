@@ -1,0 +1,13 @@
+{
+    "name": "fdisk",
+    "filename": "fdisk",
+    "paths": [
+        "/sbin/fdisk",
+        "/usr/sbin/fdisk"
+    ],
+    "description": "fdisk is a command-line utility used to manipulate disk partition tables on Linux systems. It provides functionalities for creating, deleting, resizing, and managing disk partitions on various storage devices. fdisk is typically used by system administrators for disk partition maintenance and setup during system installations. It can handle MBR, GPT, Sun, SGI, and BSD disk labels. Users must have root privileges to modify disk partitions, making it critical for security as improper use can lead to data loss or system malfunction.",
+    "capabilities": [
+        "sudo",
+        "modify-system"
+    ]
+}

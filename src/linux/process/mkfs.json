@@ -1,0 +1,12 @@
+{
+    "name": "Make Filesystem",
+    "filename": "mkfs",
+    "paths": [
+        "/sbin/mkfs",
+        "/usr/sbin/mkfs"
+    ],
+    "description": "mkfs is used to build a Linux filesystem on a device, usually a hard disk partition. This tool can format various types of filesystems, including ext4, xfs, and btrfs. It is typically used by system administrators when setting up new disks or modifying existing disk layouts. Using mkfs can be a critical step in preparing storage for use. It generally requires root permissions to execute due to direct access to hardware devices.",
+    "capabilities": [
+        "sudo"
+    ]
+}

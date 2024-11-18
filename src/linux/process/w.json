@@ -1,0 +1,11 @@
+{
+    "name": "W - Write to File",
+    "filename": "w",
+    "paths": [
+        "/usr/bin/w"
+    ],
+    "description": "W command in Linux is used to show who is logged on and what they are doing. This command provides a quick summary of every user logged into a computer, what each user is currently doing, and what load all the activity is imposing on the computer itself. It displays details like user’s login name, the terminal line they are using, login time, idle time, JCPU, PCPU, and the command line of their current process.",
+    "capabilities": [
+        "monitor-user-activity"
+    ]
+}

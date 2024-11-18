@@ -1,0 +1,12 @@
+{
+    "name": "List Loaded Modules",
+    "filename": "lsmod",
+    "paths": [
+        "/sbin/lsmod",
+        "/usr/sbin/lsmod"
+    ],
+    "description": "lsmod is a command on Linux that displays the status of loaded modules in the kernel. It shows which kernel modules are currently loaded, their size, and the number of instances in use. This information is critical for managing hardware drivers and troubleshooting hardware compatibility issues. lsmod reads data from the /proc/modules file, making it a vital tool for system administrators.",
+    "capabilities": [
+        "view-system-info"
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "name": "whereis",
+    "filename": "whereis",
+    "paths": [
+        "/usr/bin/whereis"
+    ],
+    "description": "The 'whereis' utility in Linux is used to locate the binary, source, and manual page files for a specified command. It simplifies the process of finding essential program files by searching standard Linux directories. This utility can help administrators and users quickly identify where important files related to an executable are stored. Its effectiveness is particularly useful in maintenance or during the installation of software to ensure all relevant files are accounted for.",
+    "capabilities": []
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Unmount Utility",
+    "filename": "umount",
+    "paths": [
+        "/bin/umount",
+        "/usr/bin/umount",
+        "/sbin/umount"
+    ],
+    "description": "The umount command is used to unmount file systems in Linux. It detaches the specified file system(s) from the file hierarchy and frees any resources that were in use. Typically used by system administrators to manage mounted file systems or during system maintenance. Proper use of umount ensures that changes are correctly synchronized and data integrity is maintained.",
+    "capabilities": [
+        "sudo"
+    ]
+}

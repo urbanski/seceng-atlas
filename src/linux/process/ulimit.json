@@ -1,0 +1,12 @@
+{
+    "name": "ulimit",
+    "filename": "ulimit",
+    "paths": [
+        "/bin/ulimit",
+        "/usr/bin/ulimit"
+    ],
+    "description": "ulimit is a shell builtin command used to control the resources available to the shell and to processes started by it, on systems that allow such control. Users can employ ulimit to restrict everything from the size of core dumps to the amount of CPU time or memory used, preventing programs from consuming excessive system resources. This tool is critical in managing system performance and ensuring that no single process can monopolize the system resources.",
+    "capabilities": [
+        "resource-management"
+    ]
+}

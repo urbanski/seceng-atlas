@@ -1,0 +1,13 @@
+{
+    "name": "Systemd Service Manager",
+    "filename": "systemctl",
+    "paths": [
+        "/bin/systemctl",
+        "/usr/bin/systemctl",
+        "/sbin/systemctl"
+    ],
+    "description": "Systemctl is a command-line utility that interfaces with the systemd system and service manager, which is commonly used in many Linux distributions to manage system services and other system resources. It is used to start, stop, restart, reload, enable, disable, and check the status of systemd units, including services, daemons, mount points, and sockets. Systemctl allows system administrators to manage the system's state to ensure it is configured and running as intended. It can also be used to inspect system logs and system states, perform maintenance tasks, and manage system shutdowns and reboots.",
+    "capabilities": [
+        "sudo"
+    ]
+}

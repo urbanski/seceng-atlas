@@ -1,0 +1,12 @@
+{
+    "name": "Htop",
+    "filename": "htop",
+    "paths": [
+        "/usr/bin/htop"
+    ],
+    "description": "Htop is an interactive process viewer for Unix systems. It provides a user-friendly and more visually appealing alternative to the traditional 'top' command. Htop displays a comprehensive view of the system’s processes, including CPU, memory usage, and full command lines. It allows users to manage processes such as killing or renicing them without needing to enter their PIDs. Users can interact directly with the process list to manage system performance and resources effectively. This tool is especially useful for system administrators and power users who need to monitor and control system resources in real time.",
+    "capabilities": [
+        "process-management",
+        "system-monitoring"
+    ]
+}

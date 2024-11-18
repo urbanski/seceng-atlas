@@ -1,0 +1,13 @@
+{
+    "name": "Secure Copy Protocol",
+    "filename": "scp",
+    "paths": [
+        "/usr/bin/scp"
+    ],
+    "description": "SCP is a tool used for securely transferring files between computers in a network while using SSH (Secure Shell). It leverages SSH to provide secure file transfer capabilities and allows for the enforcement of security protocols, preventing unauthorized data disclosure or access. SCP is commonly used for copying files to and from a remote server. It supports the copying of files both to and from a user's local machine, which makes it a flexible tool for managing files across different locations securely.",
+    "capabilities": [
+        "file-upload",
+        "file-download",
+        "secure-transfer"
+    ]
+}

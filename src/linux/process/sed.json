@@ -1,0 +1,12 @@
+{
+    "name": "Stream Editor",
+    "filename": "sed",
+    "paths": [
+        "/bin/sed",
+        "/usr/bin/sed"
+    ],
+    "description": "sed, which stands for stream editor, is a Unix utility that parses and transforms text, using a simple and compact programming language. It reads text input, either from stdin or from a file, and applies operations that have been specified in a script to the text. Operations include pattern matching, substitution, and insertion. sed is commonly used for extracting portions of text from a file based on patterns, modifying files in-place, and can be very useful in scripts due to its editing capabilities without opening an editor interface.",
+    "capabilities": [
+        "file-modification"
+    ]
+}

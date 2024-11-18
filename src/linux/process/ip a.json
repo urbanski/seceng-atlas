@@ -1,0 +1,16 @@
+{
+    "name": "IP Command",
+    "filename": "ip",
+    "paths": [
+        "/sbin/ip",
+        "/usr/sbin/ip",
+        "/bin/ip",
+        "/usr/bin/ip"
+    ],
+    "description": "The 'ip' command is a versatile tool for configuring and managing network interfaces in Linux environments. It is used to display or manipulate routing, devices, policy routing, and tunnels. It replaces old commands such as ifconfig and route, offering a more standardized and feature-rich approach to network configuration. This utility is essential for network administrators and is often used in scripts and system setups to ensure proper network behavior.",
+    "capabilities": [
+        "network-configuration",
+        "network-interface-manipulation",
+        "network-monitoring"
+    ]
+}

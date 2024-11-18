@@ -1,0 +1,12 @@
+{
+    "name": "Top",
+    "filename": "top",
+    "paths": [
+        "/usr/bin/top",
+        "/bin/top"
+    ],
+    "description": "Top is a task manager program included in many Unix-like operating systems that displays information about CPU usage, memory usage, running processes, and system resource usage in real-time. It provides system administrators with a quick overview of system performance and the activities of the highest load processes. Top can be used to monitor system health and to determine the need for adjustments in scheduling, workload, etc. It allows interactive control of processes, including changing the priority of processes or killing them entirely.",
+    "capabilities": [
+        "monitor-system"
+    ]
+}

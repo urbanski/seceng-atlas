@@ -1,0 +1,14 @@
+{
+    "name": "arp-scan",
+    "filename": "arp-scan",
+    "paths": [
+        "/usr/bin/arp-scan",
+        "/usr/local/bin/arp-scan"
+    ],
+    "description": "arp-scan is a command-line tool used for network discovery and auditing. It actively probes an IP network using ARP packets to identify active hosts and gather information about them. This tool is commonly used by system administrators and security professionals to map out the devices on a network and determine unknown or unauthorized devices. The output can provide details such as IP addresses and MAC addresses of the scanned devices. arp-scan can be particularly useful in large scale networks to ensure network hygiene and security compliance.",
+    "capabilities": [
+        "network-mapping",
+        "network-scanning",
+        "unauthorized-access"
+    ]
+}

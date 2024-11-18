@@ -1,0 +1,13 @@
+{
+    "name": "pkill",
+    "filename": "pkill",
+    "paths": [
+        "/usr/bin/pkill",
+        "/bin/pkill"
+    ],
+    "description": "pkill is a command-line utility used to signal processes based on name and other attributes. It allows users to send specified signals (e.g., SIGKILL, SIGTERM) to processes that match the given criteria. This can be used to stop processes, restart them, or change their execution state. pkill is powerful for managing system resources and processes dynamically. It is commonly used in scripts and during system maintenance to control batches of processes efficiently.",
+    "capabilities": [
+        "process-management",
+        "signal-sending"
+    ]
+}

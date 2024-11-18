@@ -1,0 +1,10 @@
+{
+    "name": "Which Command",
+    "filename": "which",
+    "paths": [
+        "/usr/bin/which",
+        "/bin/which"
+    ],
+    "description": "The 'which' command in Linux is used to identify the location of executables in the user's path environment. It searches through the directories listed in the PATH environment variable and shows the full path of the shell commands that would be executed when entered. This utility is helpful for system administrators and developers to verify the installed commands and troubleshoot path issues.",
+    "capabilities": []
+}

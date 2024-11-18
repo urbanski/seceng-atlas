@@ -1,0 +1,13 @@
+{
+    "name": "GNU Parted",
+    "filename": "parted",
+    "paths": [
+        "/usr/sbin/parted",
+        "/sbin/parted"
+    ],
+    "description": "GNU Parted is a powerful command-line utility used for managing disk partitions on Linux. It supports creating, destroying, resizing, checking, and copying partitions, as well as managing the disk's label and file systems. This tool allows for managing storage devices such as hard disks, SSDs, and USB drives efficiently and supports multiple file system types. Parted is especially valuable in scripting for automating partitioning tasks as part of larger setup or maintenance routines.",
+    "capabilities": [
+        "disk-formatting",
+        "disk-partition"
+    ]
+}

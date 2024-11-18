@@ -1,0 +1,14 @@
+{
+    "name": "Tshark",
+    "filename": "tshark",
+    "paths": [
+        "/usr/bin/tshark"
+    ],
+    "description": "Tshark is the command-line version of Wireshark, a network protocol analyzer. It allows users to capture and interactively browse the traffic running on a computer network. Tshark is used for network troubleshooting, analysis, software and communications protocol development, and education. It provides all of the features of Wireshark but is controlled via a command-line interface, and holds the advantage of having a lower system profile than its GUI counterpart.",
+    "capabilities": [
+        "network-monitoring",
+        "packet-capturing",
+        "data-analysis",
+        "traffic-filtering"
+    ]
+}

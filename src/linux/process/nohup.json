@@ -1,0 +1,13 @@
+{
+    "name": "nohup",
+    "filename": "nohup",
+    "paths": [
+        "/usr/bin/nohup",
+        "/bin/nohup"
+    ],
+    "description": "nohup is a POSIX command to ignore the HUP (hangup) signal. The HUP signal is sent to a process when its controlling terminal is closed. It is used to run commands in the background safely even after logging out of a shell session. The command allows the ongoing execution of the program with output redirected to a file, typically nohup.out, if not specified otherwise. This is particularly useful for running processes via SSH that should not terminate when the SSH session ends.",
+    "capabilities": [
+        "process-persistence",
+        "log-redirection"
+    ]
+}

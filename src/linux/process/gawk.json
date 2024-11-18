@@ -1,0 +1,14 @@
+{
+    "name": "GNU Awk",
+    "filename": "gawk",
+    "paths": [
+        "/usr/bin/gawk",
+        "/bin/gawk"
+    ],
+    "description": "GNU Awk is a powerful text processing utility in Linux, designed for pattern scanning and processing. It enhances the functionality of the original AWK utility and adds additional features like networking capabilities and dynamic regular expression handling. It's used extensively for data extraction, reporting, and transformation tasks. Administrators and developers often use it for scripting to automate text and data manipulation tasks. It can execute complex data-processing scripts with ease, making it an indispensable tool in many system-level scripting situations.",
+    "capabilities": [
+        "file-read",
+        "file-write",
+        "process-launch"
+    ]
+}

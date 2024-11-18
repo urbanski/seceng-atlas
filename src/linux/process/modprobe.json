@@ -1,0 +1,14 @@
+{
+    "name": "modprobe",
+    "filename": "modprobe",
+    "paths": [
+        "/sbin/modprobe",
+        "/bin/modprobe"
+    ],
+    "description": "modprobe is a Linux utility used to automatically load and unload kernel modules as per demand. It handles dependencies and can load or unload multiple modules simultaneously. This utility is essential for managing the modular drivers and functionalities of the Linux kernel. Typically, it modifies the current kernel, either by inserting (loading) or removing (unloading) modules. Administrators use it to enhance or optimize the system capabilities without the need for a reboot. Its capability to modify kernel operations makes it sensitive in a security context.",
+    "capabilities": [
+        "limited-suid",
+        "kernel-module-loading",
+        "sudo"
+    ]
+}

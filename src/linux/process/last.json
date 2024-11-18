@@ -1,0 +1,11 @@
+{
+    "name": "Last Command",
+    "filename": "last",
+    "paths": [
+        "/usr/bin/last"
+    ],
+    "description": "The 'last' command in Linux is a utility for displaying a list of all the users logged on the system or previously logged in users based on data stored in the '/var/log/wtmp' file. This tool is generally used for system monitoring, user activity tracking, and checking login records for security audits. It shows user names, terminal session details, login time, logout time, and the total duration of each session.",
+    "capabilities": [
+        "audit-log"
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "name": "GNU Debugger",
+    "filename": "gdb",
+    "paths": [
+        "/usr/bin/gdb"
+    ],
+    "description": "The GNU Debugger, more commonly known as gdb, is a powerful utility used for debugging applications. It helps programmers see what is going on 'inside' another program while it executes or what another program was doing at the moment it crashed. gdb allows users to change the execution of a program, which can be particularly useful for tracking down bugs. The tool can be used to inspect the runtime state of a program with features like breakpoint setting, step-by-step code analysis, and variable inspection. It supports programming languages such as C, C++, Java, Fortran, and more.",
+    "capabilities": [
+        "reverse-shell",
+        "bind-shell",
+        "file-upload",
+        "file-download",
+        "sudo",
+        "limited-suid",
+        "memory-edit",
+        "process-manipulation"
+    ]
+}

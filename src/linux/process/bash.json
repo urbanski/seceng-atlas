@@ -1,0 +1,18 @@
+{
+    "name": "GNU Bash",
+    "filename": "bash",
+    "paths": [
+        "/bin/bash",
+        "/usr/bin/bash"
+    ],
+    "description": "GNU Bash is the command language interpreter for the GNU operating system. It is a widely installed Unix shell that is used as the default shell on most Linux distributions. Bash is an sh-compatible shell that incorporates useful features from the Korn shell (ksh) and the C shell (csh). It is intended to be a conformant implementation of the IEEE POSIX Shell and Tools specification. Bash can read and execute commands from a file, called a script. The shell offers programming features to make it easy to write structured programs directly from the command line. It also supports interactive use.",
+    "capabilities": [
+        "reverse-shell",
+        "file-upload",
+        "file-download",
+        "sudo",
+        "limited-suid",
+        "command-execution",
+        "scripting"
+    ]
+}

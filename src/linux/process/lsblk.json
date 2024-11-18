@@ -1,0 +1,12 @@
+{
+    "name": "List Block Devices",
+    "filename": "lsblk",
+    "paths": [
+        "/bin/lsblk",
+        "/usr/bin/lsblk"
+    ],
+    "description": "lsblk lists information about all available or the specified block devices. It reads the sysfs filesystem to gather information. lsblk displays details about block devices such as their mount points, partitions, and storage capacity. This tool is commonly used for system maintenance and monitoring storage devices. It can also reveal device model numbers, serial numbers, and disk partitions, making it useful for troubleshooting and configuration.",
+    "capabilities": [
+        "system-information-disclosure"
+    ]
+}

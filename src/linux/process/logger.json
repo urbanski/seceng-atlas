@@ -1,0 +1,12 @@
+{
+    "name": "GNU Logger",
+    "filename": "logger",
+    "paths": [
+        "/usr/bin/logger",
+        "/bin/logger"
+    ],
+    "description": "GNU Logger is a utility for logging messages to the system log. It is used primarily to manually write to the system logs for testing and troubleshooting purposes. It can help system administrators track specific events or messages directly from commands or scripts. As part of the 'util-linux' package, it is commonly included in many Linux distributions. Logger supports several options to specify the facility, severity, tag, and message of the log. It does not require special privileges, but when misused can flood the system log or disguise malicious activities.",
+    "capabilities": [
+        "log-manipulation"
+    ]
+}

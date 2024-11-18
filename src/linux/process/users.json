@@ -1,0 +1,11 @@
+{
+    "name": "Users Command",
+    "filename": "users",
+    "paths": [
+        "/usr/bin/users"
+    ],
+    "description": "The 'users' command in Linux displays the usernames of users currently logged into the system. It reads this data from the /var/run/utmp file. Typically used for system administration and monitoring, it provides a quick overview of user activity on a server or workstation. This command does not offer detailed information but is useful for a quick summary.",
+    "capabilities": [
+        "monitor-system"
+    ]
+}

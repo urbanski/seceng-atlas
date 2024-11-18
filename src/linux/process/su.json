@@ -1,0 +1,13 @@
+{
+    "name": "Switch User",
+    "filename": "su",
+    "paths": [
+        "/bin/su",
+        "/usr/bin/su"
+    ],
+    "description": "The 'su' command, short for 'switch user', is used in Unix and Linux operating systems to change the current user context to another user without logging out. It is commonly used to gain root privileges, by running 'su' and entering the root user's password. This allows a user to execute commands with the security privileges of the root user or another specified user. It is a crucial tool for system administration, allowing users to manage permissions and perform tasks that are restricted to certain users.",
+    "capabilities": [
+        "sudo",
+        "limited-suid"
+    ]
+}

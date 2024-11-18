@@ -1,0 +1,12 @@
+{
+    "name": "Block Device ID",
+    "filename": "blkid",
+    "paths": [
+        "/sbin/blkid",
+        "/usr/sbin/blkid"
+    ],
+    "description": "blkid is a command-line utility to locate and print information about block devices on a Linux system. It is used to determine the type of file systems and their attributes like labels, UUIDs, and filesystem types present on a disk or disk image. The utility is often used in system setup, maintenance, and scripts to handle disk management and manipulation tasks effectively.",
+    "capabilities": [
+        "system-information"
+    ]
+}

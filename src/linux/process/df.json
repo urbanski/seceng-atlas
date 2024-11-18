@@ -1,0 +1,12 @@
+{
+    "name": "Disk Free",
+    "filename": "df",
+    "paths": [
+        "/bin/df",
+        "/usr/bin/df"
+    ],
+    "description": "df (disk free) is a command-line utility in Linux that displays the amount of available disk space for file systems. It reports the amount of disk space used and available on mounted filesystems. This information helps users and system administrators manage disk usage and maintain sufficient free space on different partitions. df can show the file system type, total blocks, free blocks, used blocks, and more. It is commonly used for monitoring the system's storage capacity during regular operations or while installing new applications.",
+    "capabilities": [
+        "system-monitoring"
+    ]
+}

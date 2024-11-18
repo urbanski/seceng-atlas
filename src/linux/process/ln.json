@@ -1,0 +1,12 @@
+{
+    "name": "ln",
+    "filename": "ln",
+    "paths": [
+        "/usr/bin/ln",
+        "/bin/ln"
+    ],
+    "description": "ln is a standard Unix command used to create links between files. By default, it creates hard links; with the -s option, it creates symbolic (soft) links. Symbolic links can reference any file or directory by pathname, serving as a shortcut or a simple method to access related files and directories. It is often used to make system files or programs accessible from different locations without duplicating data.",
+    "capabilities": [
+        "file-manipulation"
+    ]
+}
