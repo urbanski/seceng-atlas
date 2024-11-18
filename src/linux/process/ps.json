@@ -1,4 +1,3 @@
-```json
 {
     "name": "Process Status",
     "filename": "ps",
@@ -11,4 +10,3 @@
         "monitor-processes"
     ]
 }
-```

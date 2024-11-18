@@ -1,4 +1,3 @@
-```json
 {
     "name": "System Journal Viewer",
     "filename": "journalctl",
@@ -12,4 +11,3 @@
         "view-system-logs"
     ]
 }
-```

@@ -1,4 +1,3 @@
-```json
 {
     "name": "SSH Authentication Agent",
     "filename": "ssh-agent",
@@ -11,4 +10,3 @@
         "sudo"
     ]
 }
-```
