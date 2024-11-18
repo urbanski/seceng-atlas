@@ -1,0 +1,12 @@
+{
+    "name": "SSH Authentication Agent",
+    "filename": "ssh-add",
+    "paths": [
+        "/usr/bin/ssh-add"
+    ],
+    "description": "ssh-add is a utility for managing private keys used for public key authentication with SSH. It adds private keys to the user's authentication agent, allowing the user to authenticate securely without entering a passphrase with every SSH connection attempted. This tool typically works with ssh-agent to manage keys and can also be used to list the keys added to the agent and delete keys from it.",
+    "capabilities": [
+        "file-upload",
+        "sudo"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Disk Utility Command Line Tool",
+    "filename": "hdiutil",
+    "paths": [
+        "/usr/bin/hdiutil"
+    ],
+    "description": "Hdiutil is a command line utility on macOS that allows users to manipulate disk images. It is commonly used to create, convert, compress, and mount disk images in various formats. The utility is capable of creating encrypted disk images, verifying the integrity of disk images, and attaching disk images to the system as if they were physical disks. It is a powerful tool for managing disk images from the command line for backups, software distribution, or system recovery. Advanced usage can include scripting and automation of disk image-related activities.",
+    "capabilities": [
+        "file-upload",
+        "file-download",
+        "data-manipulation"
+    ]
+}

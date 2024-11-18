@@ -1,0 +1,9 @@
+{
+    "name": "More",
+    "filename": "more",
+    "paths": [
+        "/usr/bin/more"
+    ],
+    "description": "More is a command-line utility that allows users to view (but not modify) the contents of a text file one screen at a time. It is used widely on Unix-like operating systems. Users can navigate through a file using the spacebar to jump a full screen's worth of content or by using the Enter key to advance line by line. This utility is beneficial for viewing the contents of large files or logs progressively. It can also search for a string and display the section of the file where that string is found, aiding in quick file analysis. It is considered to be a very simple and secure tool for file viewing.",
+    "capabilities": []
+}

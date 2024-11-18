@@ -1,0 +1,12 @@
+{
+    "name": "Find",
+    "filename": "find",
+    "paths": [
+        "/usr/bin/find"
+    ],
+    "description": "Find is a command line utility that allows users to search for files and directories within a filesystem based on complex criteria such as file name patterns, permissions, size, modification times, and other attributes. It can perform actions on the files it finds, executing other commands that can operate on the located files. It is extensively used in scripting and system management.",
+    "capabilities": [
+        "file-search",
+        "script-execution"
+    ]
+}

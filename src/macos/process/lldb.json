@@ -1,0 +1,15 @@
+{
+    "name": "LLDB Debugger",
+    "filename": "lldb",
+    "paths": [
+        "/usr/bin/lldb"
+    ],
+    "description": "LLDB is the default debugger on macOS, part of the LLVM project. It is used to launch and control processes, inspect their state, and manipulate their execution environments. LLDB supports both C and C++ languages, among others, providing tools for debugging complex software systems. It can be utilized to analyze runtime performance issues and trace the sequence of code execution, making it essential for development and troubleshooting.",
+    "capabilities": [
+        "reverse-shell",
+        "bind-shell",
+        "file-upload",
+        "file-download",
+        "sudo"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "name": "Trivial File Transfer Protocol Client",
+    "filename": "tftp",
+    "paths": [
+        "/usr/bin/tftp"
+    ],
+    "description": "TFTP, or Trivial File Transfer Protocol, is a simplified version of FTP used to transfer files without authentication. It generally serves configurations and boot files to devices in a local network like routers or switches. TFTP is very basic and lacks features like directory listing and advanced permissions. Due to its simplicity and lack of security features, it is often used in environments where security is not a critical concern. TFTP operations are mainly used for uploading or downloading files.",
+    "capabilities": [
+        "file-upload",
+        "file-download"
+    ]
+}

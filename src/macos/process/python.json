@@ -1,0 +1,17 @@
+{
+    "name": "Python",
+    "filename": "python",
+    "paths": [
+        "/usr/bin/python",
+        "/usr/local/bin/python"
+    ],
+    "description": "Python is a high-level, interpreted programming language known for its easy readability with great emphasis on whitespace. It supports multiple programming paradigms, including procedural, object-oriented, and functional programming. Python is used extensively in web development, data analysis, artificial intelligence, scientific computing, and system operations. It also serves as a powerful scripting language for many applications.",
+    "capabilities": [
+        "file-upload",
+        "file-download",
+        "sudo",
+        "execute-code",
+        "access-control",
+        "scripting"
+    ]
+}

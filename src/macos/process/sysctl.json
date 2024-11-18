@@ -1,0 +1,12 @@
+{
+    "name": "System Control",
+    "filename": "sysctl",
+    "paths": [
+        "/usr/sbin/sysctl"
+    ],
+    "description": "sysctl is a utility for examining and changing kernel parameters at runtime. It is primarily used for controlling system variables and is available on various Unix-like operating systems. It allows for querying and modifying control parameters in the running system kernel, such as network settings, process limits, and security controls.",
+    "capabilities": [
+        "system-monitoring",
+        "configuration-change"
+    ]
+}

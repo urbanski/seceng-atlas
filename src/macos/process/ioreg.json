@@ -1,0 +1,11 @@
+{
+    "name": "IO Registry Explorer",
+    "filename": "ioreg",
+    "paths": [
+        "/usr/sbin/ioreg"
+    ],
+    "description": "IOReg, or IO Registry Explorer, is a command-line tool used on macOS to display the I/O Kit registry. It provides a hierarchical view of the kernel's internal data structures, which represent the hardware components and software drivers in the system. The tool is useful for system diagnostics, debugging hardware issues, and exploring the system's hardware configuration.",
+    "capabilities": [
+        "information-gathering"
+    ]
+}

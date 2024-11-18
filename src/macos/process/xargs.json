@@ -1,0 +1,11 @@
+{
+    "name": "xargs",
+    "filename": "xargs",
+    "paths": [
+        "/usr/bin/xargs"
+    ],
+    "description": "xargs is a command on Unix-like operating systems that constructs and executes command lines from input data. It reads items from the standard input or specified files, delimited by blanks or newlines, and executes the specified command using the items as arguments. This can be very useful for chaining commands together where the output of one is used as the input to another, allowing for batch processing. xargs can be used in powerful ways in combination with other commands for finding files, processing files, and performing administrative tasks.",
+    "capabilities": [
+        "command-execution"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "name": "Users Utility",
+    "filename": "users",
+    "paths": [
+        "/usr/bin/users"
+    ],
+    "description": "The users command in macOS is used for displaying the login names of users currently on the system. It gives a quick overview to see who is logged into the machine at any given time. This can be particularly useful for system administrators for monitoring purposes or for checking the status of the system usage. The information displayed by users come from the system's utmp file. The command is non-intrusive and runs with limited permissions.",
+    "capabilities": [
+        "monitor-users"
+    ]
+}

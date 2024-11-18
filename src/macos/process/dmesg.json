@@ -1,0 +1,13 @@
+{
+    "name": "Display Message",
+    "filename": "dmesg",
+    "paths": [
+        "/sbin/dmesg"
+    ],
+    "description": "dmesg is a command used to examine or control the kernel ring buffer. It displays messages related to system boot or monitor kernel-related events. Administrators use it primarily for debugging and system diagnostics. The output contains information about hardware and drivers as well as messages from the kernel. On macOS, it can also provide insights into the performance and handling of various system components.",
+    "capabilities": [
+        "view-log",
+        "debugging",
+        "system-monitoring"
+    ]
+}

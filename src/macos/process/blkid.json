@@ -1,0 +1,11 @@
+{
+    "name": "Block Device Identifier",
+    "filename": "blkid",
+    "paths": [
+        "/sbin/blkid"
+    ],
+    "description": "blkid is a command-line utility to locate or print block device attributes in Linux-based systems. It can be employed to display the UUIDs and filesystem types of different block devices. This information is crucial for system configuration and maintenance, such as fstab entries. It is commonly used by system administrators for its direct interaction with device files to fetch detailed storage information.",
+    "capabilities": [
+        "read-system-info"
+    ]
+}

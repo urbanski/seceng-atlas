@@ -1,0 +1,12 @@
+{
+    "name": "SudoEdit",
+    "filename": "sudoedit",
+    "paths": [
+        "/usr/bin/sudoedit"
+    ],
+    "description": "SudoEdit is a utility that allows a system administrator to delegate authority to give certain users (or groups of users) the ability to run some (or all) commands as root or another user while providing an audit trail of the commands and their arguments. It is part of the sudo package and operates in a similar way to the sudo command with a focus on safely editing system files. The primary purpose of SudoEdit is to permit specific file editing without granting full shell access.",
+    "capabilities": [
+        "limited-suid",
+        "file-edit"
+    ]
+}

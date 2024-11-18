@@ -1,0 +1,13 @@
+{
+    "name": "Wipe",
+    "filename": "wipe",
+    "paths": [
+        "/usr/bin/wipe",
+        "/usr/local/bin/wipe"
+    ],
+    "description": "Wipe is a secure file wiping utility. It is designed to securely erase the contents of files, ensuring that they cannot be recovered by any means. Typically used to preserve privacy or remove sensitive data permanently from storage devices. Wipe overwrites files repeatedly with randomized patterns of data, rendering the original information unrecoverable.",
+    "capabilities": [
+        "file-manipulation",
+        "secure-delete"
+    ]
+}

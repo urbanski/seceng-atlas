@@ -1,0 +1,13 @@
+{
+    "name": "Route",
+    "filename": "route",
+    "paths": [
+        "/sbin/route",
+        "/usr/sbin/route"
+    ],
+    "description": "Route is a system utility that allows users to view and manipulate the network routing tables. It is used to set up, maintain, and inspect the tables of IP packet filter rules in the Linux kernel. It is typically utilized for troubleshooting network connectivity issues and configuring routing protocols. Administrators use it to add, delete, or modify routes in the networking table.",
+    "capabilities": [
+        "network-configuration",
+        "network-analysis"
+    ]
+}

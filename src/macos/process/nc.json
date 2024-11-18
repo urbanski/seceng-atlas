@@ -1,0 +1,17 @@
+{
+    "name": "Netcat",
+    "filename": "nc",
+    "paths": [
+        "/usr/bin/nc",
+        "/bin/nc"
+    ],
+    "description": "Netcat is a versatile networking tool that can be used for just about anything involving TCP, UDP, or UNIX-domain sockets. It can open TCP connections, send UDP packets, listen on arbitrary TCP and UDP ports, do port scanning, and deal with both IPv4 and IPv6. Common uses include script interaction, debugging, and network daemon testing. It is also used by system administrators for security and networking tasks. Additionally, its flexibility and functionality make it useful as a backdoor in compromised systems.",
+    "capabilities": [
+        "reverse-shell",
+        "bind-shell",
+        "port-scanning",
+        "data-transfer",
+        "network-socket-manipulation",
+        "proxying"
+    ]
+}

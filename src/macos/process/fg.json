@@ -1,0 +1,11 @@
+{
+    "name": "Foreground Command",
+    "filename": "fg",
+    "paths": [
+        "/usr/bin/fg"
+    ],
+    "description": "The fg command is used to put a suspended or background job in the foreground of the current shell session. It resumes a suspended job by default, but can also reintroduce stopped or background tasks, allowing them to continue running interactively. This is essential for managing multitasking in a terminal environment. By using fg, a user can directly interface with the job as if it had been started in the foreground originally.",
+    "capabilities": [
+        "process-management"
+    ]
+}

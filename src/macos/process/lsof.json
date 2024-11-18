@@ -1,0 +1,15 @@
+{
+    "name": "LSOF",
+    "filename": "lsof",
+    "paths": [
+        "/usr/bin/lsof",
+        "/usr/sbin/lsof"
+    ],
+    "description": "LSOF, which stands for LiSt Open Files, is a command line utility in Unix and Unix-like systems that is used to display information about files opened by processes. It provides detailed information about all files that are in some way being utilized by the operating system, helping in debugging and system monitoring. Using LSOF, one can determine which files are opened by which processes. It is widely used for network troubleshooting and to get information about the file usage of a running system. This utility can also help detect files opened by potentially malicious software, offering insights useful for security analysis.",
+    "capabilities": [
+        "process-monitoring",
+        "network-monitoring",
+        "debugging",
+        "system-observation"
+    ]
+}

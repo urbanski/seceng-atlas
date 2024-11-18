@@ -1,0 +1,12 @@
+{
+    "name": "System Integrity Protection Utility",
+    "filename": "csrutil",
+    "paths": [
+        "/usr/bin/csrutil"
+    ],
+    "description": "csrutil is the command-line utility on macOS that allows users to configure System Integrity Protection (SIP). It is used to enable or disable SIP as well as check its status. SIP is a security feature that limits what the 'root' user can do and which files can be modified on the system, thus protecting the system from modification by malware or other unauthorized processes. This utility is typically used by system administrators and requires a reboot in recovery mode to change its settings.",
+    "capabilities": [
+        "system-configuration",
+        "security-management"
+    ]
+}

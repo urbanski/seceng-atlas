@@ -1,0 +1,12 @@
+{
+    "name": "ARP Scan",
+    "filename": "arp-scan",
+    "paths": [
+        "/usr/local/bin/arp-scan",
+        "/usr/bin/arp-scan"
+    ],
+    "description": "ARP Scan is a network scanning tool designed to identify active devices on a local network through ARP (Address Resolution Protocol) requests. It is used primarily to discover and list devices connected to a network by sending ARP packets and collecting responses. This tool can help system administrators in identifying unauthorized devices on a network and assist in network layout mapping. ARP Scan operates based on the MAC/IP address pairs, making it effective in environments where IP addresses might not be static. As a command-line utility, it provides various options for adjusting the scan technique and output format.",
+    "capabilities": [
+        "network-mapping"
+    ]
+}

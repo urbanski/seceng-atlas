@@ -1,0 +1,11 @@
+{
+    "name": "Log Stream",
+    "filename": "log",
+    "paths": [
+        "/usr/bin/log"
+    ],
+    "description": "Log Stream command is a utility in macOS that enables users to monitor and filter system logs and other types of output from the system's consolidated logging system. It is typically used to diagnose problems, monitor system performance, and understand detailed system activities. The tool provides real-time access to logs, allowing developers and system administrators to observe live system behavior or troubleshoot issues as they occur. Log Stream is primarily a diagnostic tool rather than a modification tool, making it essential for monitoring rather than altering system behavior.",
+    "capabilities": [
+        "file-read"
+    ]
+}

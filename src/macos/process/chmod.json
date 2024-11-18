@@ -1,0 +1,12 @@
+{
+    "name": "Change Mode",
+    "filename": "chmod",
+    "paths": [
+        "/bin/chmod"
+    ],
+    "description": "chmod is a command-line utility that allows users to change the read, write, and execute permissions of files and directories in Unix-like operating systems. It accepts options to specify the permissions, which can be represented numerically or symbolically, and the target files or directories. chmod is useful for managing file security, setting up files for execution, and configuring access for different users and groups.",
+    "capabilities": [
+        "file-permission-modification",
+        "limited-suid"
+    ]
+}

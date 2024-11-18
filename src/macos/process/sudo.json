@@ -1,0 +1,12 @@
+{
+    "name": "Sudo",
+    "filename": "sudo",
+    "paths": [
+        "/usr/bin/sudo"
+    ],
+    "description": "Sudo (superuser do) is a powerful utility included in macOS and many other UNIX and Linux-based operating systems. It allows a permitted user to execute a command as the superuser or another user, as specified in the sudoers file. This tool is essential for managing privileges and performing administrative tasks, ensuring that only authorized users can perform actions with elevated permissions.",
+    "capabilities": [
+        "sudo",
+        "limited-suid"
+    ]
+}

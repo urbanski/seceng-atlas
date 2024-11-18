@@ -1,0 +1,9 @@
+{
+    "name": "Whoami",
+    "filename": "whoami",
+    "paths": [
+        "/usr/bin/whoami"
+    ],
+    "description": "Whoami is a command-line utility that displays the username of the current user when executed. Its primary purpose is to help in identifying which user account is currently active in a terminal session. This simple yet essential tool is often used in scripts and during system administration tasks to confirm user identity for access control and auditing purposes. It does not inherently have administrative capabilities, nor does it directly change system configurations.",
+    "capabilities": []
+}

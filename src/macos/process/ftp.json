@@ -1,0 +1,12 @@
+{
+    "name": "File Transfer Protocol Client",
+    "filename": "ftp",
+    "paths": [
+        "/usr/bin/ftp"
+    ],
+    "description": "The FTP command in MacOS is a user interface to the ARPANET standard File Transfer Protocol. It allows users to transfer files to and from a remote network site. The functionality of ftp includes downloading and uploading files, browsing through the directory structures of both local and remote machines, and even deleting files on the remote server. Users can also rename files and directories remotely. FTP is often used for batch processing and can be scripted for automated operations.",
+    "capabilities": [
+        "file-upload",
+        "file-download"
+    ]
+}

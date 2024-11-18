@@ -1,0 +1,12 @@
+{
+    "name": "Finger",
+    "filename": "finger",
+    "paths": [
+        "/usr/bin/finger"
+    ],
+    "description": "Finger is a program used to look up information about users on a network. It displays data such as login name, real name, terminal name, write status, idle time, and login time at the user's host. The information can be requested from all users or a specific user. The command connects to the finger daemon running on other machines. Its use has decreased due to privacy concerns and the availability of other tools like social media and organizational directories.",
+    "capabilities": [
+        "information-gathering",
+        "network-enumeration"
+    ]
+}

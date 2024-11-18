@@ -1,0 +1,11 @@
+{
+    "name": "Change Owner",
+    "filename": "chown",
+    "paths": [
+        "/usr/bin/chown"
+    ],
+    "description": "chown is a command in Unix-based systems used to change the ownership of files or directories. It allows users to specify a new user or group as an owner, which can be crucial for managing permissions and access rights to system files and directories. The command can recursively change ownership of all files and folders within a directory structure. Proper use of chown is essential for system security and misconfiguration can lead to unauthorized access.",
+    "capabilities": [
+        "file-permission-modification"
+    ]
+}

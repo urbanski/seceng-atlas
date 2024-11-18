@@ -1,0 +1,12 @@
+{
+    "name": "Strings",
+    "filename": "strings",
+    "paths": [
+        "/usr/bin/strings"
+    ],
+    "description": "Strings is a command-line tool used in Unix and Unix-like operating systems. It is designed to display printable sequences of characters from binary files. This tool is particularly useful for analyzing binary executables to find human-readable text, which can include error messages, debug messages, or other interesting content. In a cybersecurity context, it can be used to analyze malicious files to glean insight into their functionalities without executing them, thus providing a safer method of preliminary investigation.",
+    "capabilities": [
+        "file-read",
+        "data-extraction"
+    ]
+}

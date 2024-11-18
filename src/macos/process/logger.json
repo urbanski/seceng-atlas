@@ -1,0 +1,11 @@
+{
+    "name": "System Logger",
+    "filename": "logger",
+    "paths": [
+        "/usr/bin/logger"
+    ],
+    "description": "The logger command in Linux and macOS is a utility that can be used to add entries to the system log files. It provides a method for scripts and system processes to log messages in the system log daemon, syslog, thereby making it easier to monitor and diagnose the system. This tool supports various options to specify the log level and the facility for the message.",
+    "capabilities": [
+        "log-tampering"
+    ]
+}

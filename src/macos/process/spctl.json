@@ -1,0 +1,14 @@
+{
+    "name": "System Policy Control",
+    "filename": "spctl",
+    "paths": [
+        "/usr/sbin/spctl"
+    ],
+    "description": "System Policy Control (spctl) is a command-line tool on macOS used to manage security and privacy settings related to Gatekeeper and developer ID. It allows users to configure policies for software installation, execution, and other system permissions. The tool can be used to enable or disable Gatekeeper, check the assessment status of applications, and manage developer certificates for increased security. It is typically utilized by system administrators and advanced users for maintaining the security integrity of macOS devices.",
+    "capabilities": [
+        "configure-system-security",
+        "manage-application-permissions",
+        "enable-disable-gatekeeper",
+        "certificate-management"
+    ]
+}

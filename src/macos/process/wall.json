@@ -1,0 +1,11 @@
+{
+    "name": "Wall",
+    "filename": "wall",
+    "paths": [
+        "/usr/bin/wall"
+    ],
+    "description": "Wall is a command used to send a message to all users currently logged in on the system by writing to the terminals of those users. It is typically used by system administrators to broadcast important system-related information or warnings. Since it can write to multiple terminals, it can potentially be used as a form of spam or to broadcast misinformation.",
+    "capabilities": [
+        "broadcast-messages"
+    ]
+}

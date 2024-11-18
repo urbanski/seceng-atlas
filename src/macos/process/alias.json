@@ -1,0 +1,11 @@
+{
+    "name": "alias Command",
+    "filename": "alias",
+    "paths": [
+        "/usr/bin/alias"
+    ],
+    "description": "The alias command in Unix and Linux operating systems is used to create shortcuts for other commands. It allows users to define a string to represent a complex command setup, reducing the need to type a lengthy command with options repeatedly. Typically used in shell environments like bash, zsh, etc., it helps in customizing the command line interface to enhance user efficiency. Users can create temporary aliases for a single session or permanent aliases using configuration files like .bashrc or .zshrc.",
+    "capabilities": [
+        "command-shortcut"
+    ]
+}

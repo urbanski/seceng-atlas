@@ -1,0 +1,14 @@
+{
+    "name": "Bourne Shell",
+    "filename": "sh",
+    "paths": [
+        "/bin/sh"
+    ],
+    "description": "sh, short for Bourne Shell, is a command-line shell for UNIX systems. It is widely used as the default shell for scripting and simple command execution. While its usage has largely been supplanted by bash (Bourne Again SHell) in many systems, it still remains relevant as a lightweight, POSIX-compliant shell. It is often linked to or used by other shells and scripts for compatibility reasons. The shell allows users to execute commands, scripts and facilitates piping and redirection.",
+    "capabilities": [
+        "reverse-shell",
+        "bind-shell",
+        "file-upload",
+        "file-download"
+    ]
+}

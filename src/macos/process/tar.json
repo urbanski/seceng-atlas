@@ -1,0 +1,12 @@
+{
+    "name": "Tar Archiving Utility",
+    "filename": "tar",
+    "paths": [
+        "/usr/bin/tar"
+    ],
+    "description": "Tar is a software utility used for collecting many files into one archive file, often referred to as a tarball, for distribution or backup. The tar command on MacOS can create new archives, modify or extract existing archives. It is widely used for backup and transport of directories, and for file distribution. Key operations include creating archives, extracting files from archives, and listing archive contents. Tar can handle various compression formats and protocols, making it a versatile tool for system management.",
+    "capabilities": [
+        "file-upload",
+        "file-download"
+    ]
+}

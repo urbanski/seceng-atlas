@@ -1,0 +1,13 @@
+{
+    "name": "Code Signing Utility",
+    "filename": "codesign",
+    "paths": [
+        "/usr/bin/codesign"
+    ],
+    "description": "Code Signing Utility is a tool used in macOS for signing code. It allows developers to sign their applications and tools to attest their integrity and origin. The codesign utility can be used to sign apps, check code signatures, and remove existing signatures from binary files. It ensures that the app hasn't been modified since it was signed. By verifying the signature, macOS can restrict certain permissions and ensure secure software execution on the system.",
+    "capabilities": [
+        "file-verification",
+        "modify-signatures",
+        "authenticate"
+    ]
+}

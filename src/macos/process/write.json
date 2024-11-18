@@ -1,0 +1,13 @@
+{
+    "name": "Write",
+    "filename": "write",
+    "paths": [
+        "/usr/bin/write",
+        "/bin/write"
+    ],
+    "description": "Write is a command line utility on Unix-like operating systems that enables users to send messages to other users. It works across terminals, allowing a user to write a message directly into another user's terminal session if they have permission. Write is one component of the inter-user communication functionality of these systems.",
+    "capabilities": [
+        "send-messages",
+        "inter-user-communication"
+    ]
+}

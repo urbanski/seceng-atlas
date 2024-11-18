@@ -1,0 +1,12 @@
+{
+    "name": "grep",
+    "filename": "grep",
+    "paths": [
+        "/usr/bin/grep"
+    ],
+    "description": "grep (global regular expression print) is a command-line utility in Unix and Unix-like operating systems. It is used to search for a specified pattern within input files and outputs the lines that contain the pattern. It supports various pattern matching techniques, including regular expressions. grep is widely used for tasks such as parsing logs, searching codebases for specific patterns, or filtering command output. It can be used recursively, and with options to display line numbers, file names, and to ignore case, among others.",
+    "capabilities": [
+        "file-search",
+        "text-processing"
+    ]
+}

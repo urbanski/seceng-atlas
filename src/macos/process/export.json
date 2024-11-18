@@ -1,0 +1,12 @@
+{
+    "name": "Export",
+    "filename": "export",
+    "paths": [
+        "/usr/bin/export",
+        "/bin/export"
+    ],
+    "description": "Export is a built-in shell command used to set or export environment variables and functions to the environment of child processes (e.g., subprocesses launched from the shell). This command ensures that the environment variables or functions defined are accessible for other processes started from the shell. It is a crucial utility for managing the settings and behaviors of processes and is widely used in scripting to configure software behavior.",
+    "capabilities": [
+        "environment-manipulation"
+    ]
+}

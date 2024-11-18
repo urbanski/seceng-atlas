@@ -1,0 +1,14 @@
+```json
+{
+    "name": "Unset Environment Variable",
+    "filename": "unset",
+    "paths": [
+        "/usr/bin/unset",
+        "/bin/unset"
+    ],
+    "description": "Unset is a utility to unset and/or delete environment variables. This command is typically used in shell scripts and terminal sessions to remove variables from the environment. It helps in managing the environment settings by clearing unnecessary or temporary variables which could affect program behavior or system operation.",
+    "capabilities": [
+        "environment-manipulation"
+    ]
+}
+```

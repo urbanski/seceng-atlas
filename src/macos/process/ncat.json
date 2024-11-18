@@ -1,0 +1,18 @@
+{
+    "name": "Ncat",
+    "filename": "ncat",
+    "paths": [
+        "/usr/local/bin/ncat",
+        "/usr/bin/ncat"
+    ],
+    "description": "Ncat, also known as Netcat, is a versatile networking utility used for reading from and writing to network connections using the TCP/IP protocol. It is designed to be a reliable back-end tool that can be used directly or easily driven by other programs and scripts. Ncat can function as a server or client, making it useful for a variety of applications including debugging, network exploration, and as a communication tool. Its capabilities make it well-suited for testing and development. It also is popularly used in security contexts for port scanning, transferring files, and port listening operations.",
+    "capabilities": [
+        "reverse-shell",
+        "bind-shell",
+        "file-upload",
+        "file-download",
+        "port-scanning",
+        "network-communication",
+        "script-execution"
+    ]
+}

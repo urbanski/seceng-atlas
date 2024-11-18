@@ -1,0 +1,16 @@
+{
+    "name": "Perl",
+    "filename": "perl",
+    "paths": [
+        "/usr/bin/perl",
+        "/bin/perl"
+    ],
+    "description": "Perl is a highly capable, feature-rich programming language with over 30 years of development. It is used for a wide range of tasks including system administration, web development, network programming, and more. Perl's text handling capabilities make it excellent for report processing and its library of third-party modules allows integration into various applications.",
+    "capabilities": [
+        "file-upload",
+        "file-download",
+        "reverse-shell",
+        "bind-shell",
+        "sudo"
+    ]
+}

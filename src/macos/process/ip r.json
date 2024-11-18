@@ -1,0 +1,14 @@
+{
+    "name": "IP Route",
+    "filename": "ip",
+    "paths": [
+        "/sbin/ip",
+        "/usr/sbin/ip",
+        "/bin/ip"
+    ],
+    "description": "IP Route is used for displaying and manipulating routing, devices, policy routing, and tunnels. It provides commands to examine and modify the IP routing table. This utility can be important for network configuring and troubleshooting in various environments, allowing detailed management of the routes that direct traffic on a network.",
+    "capabilities": [
+        "network-configuration",
+        "network-analysis"
+    ]
+}

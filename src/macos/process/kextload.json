@@ -1,0 +1,14 @@
+{
+    "name": "Kernel Extension Loader",
+    "filename": "kextload",
+    "paths": [
+        "/usr/bin/kextload",
+        "/sbin/kextload"
+    ],
+    "description": "kextload is a command-line utility used on macOS to load kernel extensions (kexts) into the kernel. The tool is primarily utilized by system administrators and developers for testing or loading custom or third-party kernel modules. Kernel extensions expand the kernel's capabilities, allowing direct interaction with the operating system's core, providing the ability to enhance and modify system functions at a low level.",
+    "capabilities": [
+        "load-code",
+        "modify-kernel",
+        "sudo"
+    ]
+}

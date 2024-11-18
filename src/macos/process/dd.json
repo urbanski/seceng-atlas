@@ -1,0 +1,14 @@
+{
+    "name": "Disk Copy",
+    "filename": "dd",
+    "paths": [
+        "/bin/dd"
+    ],
+    "description": "dd is a command-line utility commonly used for converting and copying files at the byte level. It can create exact copies of entire disks or disk partitions, making it useful for system backup and restore operations. dd can also handle data transformation operations such as converting character encoding or changing block sizes. Its ability to directly read and write data from devices allows for the creation of bootable media. Given its powerful capabilities, it should be used with caution as it can also be exploited for data destruction.",
+    "capabilities": [
+        "file-upload",
+        "file-download",
+        "data-manipulation",
+        "device-write"
+    ]
+}

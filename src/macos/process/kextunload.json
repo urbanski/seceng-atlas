@@ -1,0 +1,11 @@
+{
+    "name": "Kext Unload Utility",
+    "filename": "kextunload",
+    "paths": [
+        "/usr/sbin/kextunload"
+    ],
+    "description": "The Kext Unload utility is used on macOS to unload kernel extensions (kexts). This tool can facilitate the management of low-level system components by allowing users to disable kernel extensions, which might otherwise affect system performance or behavior. It is particularly useful for developers and administrators needing to test or troubleshoot kernel-level functionalities. Improper use of this command can destabilize the system if critical components are unloaded.",
+    "capabilities": [
+        "kernel-modification"
+    ]
+}

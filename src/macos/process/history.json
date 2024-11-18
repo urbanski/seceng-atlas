@@ -1,0 +1,11 @@
+{
+    "name": "History Command",
+    "filename": "history",
+    "paths": [
+        "/bin/history"
+    ],
+    "description": "The history command displays the list of commands previously entered by the user in the terminal. This command is used primarily for recalling commands to edit or reuse them in new operations. It helps in efficient terminal workflow by allowing users to reference or rerun past commands without retyping them completely. On macOS, the actual behavior of the command is closely tied to the shell environment being used such as bash or zsh.",
+    "capabilities": [
+        "command-history"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "name": "Killall",
+    "filename": "killall",
+    "paths": [
+        "/usr/bin/killall"
+    ],
+    "description": "Killall is a utility used to terminate all instances of a specific process using its name. It sends a signal to all processes running any of the specified commands. If no signal is specified, the TERM signal is sent. Killall can be used for system administration to quickly stop all instances of a troublesome process. It is important to use killall cautiously as terminating essential processes can lead to system instability or data loss.",
+    "capabilities": [
+        "process-management",
+        "terminate-processes"
+    ]
+}

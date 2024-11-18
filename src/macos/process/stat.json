@@ -1,0 +1,11 @@
+{
+    "name": "Stat Command",
+    "filename": "stat",
+    "paths": [
+        "/usr/bin/stat"
+    ],
+    "description": "The stat command is used to display detailed information about specified file or file system status. It provides information such as file size, permissions, modification date, and more. Stat is commonly used for checking file attributes and troubleshooting file-related issues in Unix-like operating systems.",
+    "capabilities": [
+        "file-download"
+    ]
+}

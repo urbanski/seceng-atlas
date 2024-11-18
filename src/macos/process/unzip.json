@@ -1,0 +1,13 @@
+{
+    "name": "Unzip",
+    "filename": "unzip",
+    "paths": [
+        "/usr/bin/unzip",
+        "/bin/unzip"
+    ],
+    "description": "Unzip is a utility that helps in extracting compressed files from archives. It supports various archive formats including ZIP. The tool allows for extracting the contents into a specified directory or list the contents of an archive. It is widely used for decompressing files that are downloaded from the internet or received through email.",
+    "capabilities": [
+        "file-download",
+        "file-manipulation"
+    ]
+}

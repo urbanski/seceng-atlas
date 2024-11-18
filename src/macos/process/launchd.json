@@ -1,0 +1,13 @@
+{
+    "name": "Launch Daemon Manager",
+    "filename": "launchd",
+    "paths": [
+        "/sbin/launchd"
+    ],
+    "description": "launchd is a system daemon that manages and starts other daemons and services during boot, shutdown, and runtime in macOS. It is responsible for initializing the system, launching and maintaining background services, and managing system states. launchd manages tasks based on configuration files called plists, which define when and how services should be launched. This utility streamlines system process management to simplify administration and improve system performance. It is an essential component in macOS for system operations, replacing init processes.",
+    "capabilities": [
+        "process-management",
+        "startup-control",
+        "service-management"
+    ]
+}

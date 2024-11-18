@@ -1,0 +1,16 @@
+{
+    "name": "Launch Control",
+    "filename": "launchctl",
+    "paths": [
+        "/bin/launchctl",
+        "/sbin/launchctl",
+        "/usr/bin/launchctl"
+    ],
+    "description": "Launchctl is used to control the macOS Launch Services framework, which deals with the loading and unloading of daemons, agents, and applications. It is a primary method to manage system and application services in macOS. This tool is essential for administrative tasks and system management, allowing users to query, configure, or control Launch Services. It can be used as an attack vector to maintain persistence or alter system services for malicious purposes.",
+    "capabilities": [
+        "daemon-management",
+        "service-modification",
+        "persistence",
+        "privilege-escalation"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "name": "Network Interface Configuration",
+    "filename": "ifconfig",
+    "paths": [
+        "/sbin/ifconfig"
+    ],
+    "description": "The 'ifconfig' utility is used to configure, manage, and query network interface parameters via command-line interface. It allows users to activate or deactivate network interfaces, set static or dynamic IP addresses, modify routing tables, and display network configuration details. The tool is essential for network administration and troubleshooting. Though largely replaced by the 'ip' command in Linux distributions, it remains available in macOS for compatibility.",
+    "capabilities": [
+        "network-configuration",
+        "network-statistics"
+    ]
+}

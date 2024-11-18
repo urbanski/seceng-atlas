@@ -1,0 +1,13 @@
+{
+    "name": "GNU Awk",
+    "filename": "gawk",
+    "paths": [
+        "/usr/bin/gawk",
+        "/usr/local/bin/gawk"
+    ],
+    "description": "GNU Awk is a powerful text processing language that is used primarily for pattern scanning and processing. It enables manipulation of structured data and generates formatted reports. It can also serve as a programming language, equipped with variable, arithmetic operations, and loops which can be used to automate complex text-based tasks and data extraction.",
+    "capabilities": [
+        "file-download",
+        "file-upload"
+    ]
+}

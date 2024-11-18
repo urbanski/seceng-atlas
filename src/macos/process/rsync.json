@@ -1,0 +1,13 @@
+{
+    "name": "rsync",
+    "filename": "rsync",
+    "paths": [
+        "/usr/bin/rsync",
+        "/usr/local/bin/rsync"
+    ],
+    "description": "rsync is a utility for efficiently transferring and synchronizing files across computer systems, by checking the timestamp and size of files. It is commonly used for backing up and mirroring files and directories. Additionally, it can be used to scale up and propagate large datasets across multiple systems. rsync operates over an unsecured connection, using the rsync algorithm which provides a very fast method for bringing remote files into sync.",
+    "capabilities": [
+        "file-upload",
+        "file-download"
+    ]
+}

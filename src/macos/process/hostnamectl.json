@@ -1,0 +1,13 @@
+{
+    "name": "Hostname Control Utility",
+    "filename": "hostnamectl",
+    "paths": [
+        "/usr/bin/hostnamectl",
+        "/bin/hostnamectl"
+    ],
+    "description": "Hostnamectl is a utility in Linux-based systems used to query and change the system hostname and related settings. It belongs to the systemd suite, providing an easy command-line interface to configure the hostname. The command can show detailed hostname information and set various host-related settings, such as the static hostname, pretty hostname, and icon name. This command simplifies the mechanism of hostname management which was traditionally handled by manually editing system files like '/etc/hostname'.",
+    "capabilities": [
+        "configuration",
+        "system-modification"
+    ]
+}

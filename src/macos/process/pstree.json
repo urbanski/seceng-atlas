@@ -1,0 +1,12 @@
+{
+    "name": "PSTree",
+    "filename": "pstree",
+    "paths": [
+        "/usr/bin/pstree",
+        "/usr/local/bin/pstree"
+    ],
+    "description": "PSTree is a utility that displays a tree structure of all the running processes on a Unix-like operating system. Each branch of the tree represents a process, and its children represent subprocesses, showing the hierarchy of processes. This tool is often used for system monitoring, debugging, and managing system resources more effectively.",
+    "capabilities": [
+        "system-monitoring"
+    ]
+}

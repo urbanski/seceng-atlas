@@ -1,0 +1,13 @@
+{
+    "name": "Secure Copy",
+    "filename": "scp",
+    "paths": [
+        "/usr/bin/scp",
+        "/bin/scp"
+    ],
+    "description": "Secure Copy (scp) is a command-line utility that allows users to securely copy files and directories between two locations over a network. It uses the SSH protocol for data transfer and provides the same authentication and security as SSH. Users can copy files both from their local system to a remote system or between two remote systems, facilitated by the SSH server. It is widely used for secure data transfer operations and system administration tasks. The security features of scp include encryption, secure authentication, and integrity protection.",
+    "capabilities": [
+        "file-upload",
+        "file-download"
+    ]
+}

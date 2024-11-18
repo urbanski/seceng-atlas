@@ -1,0 +1,11 @@
+{
+    "name": "cat",
+    "filename": "cat",
+    "paths": [
+        "/bin/cat"
+    ],
+    "description": "The 'cat' command in Unix/Linux is a utility that is used to read, concatenate, and display file contents to standard output. Typically it is used for viewing the content of files, creating single files from multiple files, and adding content to existing files. It's commonly employed in shell scripts and in combination with other utilities for effective text manipulation.",
+    "capabilities": [
+        "file-read"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "name": "Base64",
+    "filename": "base64",
+    "paths": [
+        "/usr/bin/base64"
+    ],
+    "description": "Base64 is a utility program used to encode and decode files in the base64 format as specified by RFC 3548. This tool helps in the safe transmission of binary data through media that are designed to deal with textual data. It can be used to convert binary data to a text format that can be sent over email, used in URLs, and other types of text fields. It is commonly used in various applications for encoding large volumes of data especially in web applications. Although primarily used for encoding, it can also decode any base64 encoded data back to its original binary form.",
+    "capabilities": [
+        "file-upload",
+        "file-download"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "name": "Disown",
+    "filename": "disown",
+    "paths": [
+        "/usr/bin/disown",
+        "/bin/disown"
+    ],
+    "description": "Disown is a shell builtin command in Unix-like operating systems. It is used to remove jobs from the shell's active job table, therefore, disassociate them from the shell's job control. The command is often used in conjunction with background processes, preventing them from being terminated when the controlling shell is closed. This can be particularly useful for long-running processes that should not be interrupted.",
+    "capabilities": [
+        "background-process-management"
+    ]
+}

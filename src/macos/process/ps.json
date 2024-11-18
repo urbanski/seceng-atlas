@@ -1,0 +1,12 @@
+{
+    "name": "Process Status",
+    "filename": "ps",
+    "paths": [
+        "/bin/ps"
+    ],
+    "description": "ps displays information about a selection of the active processes. It provides a snapshot of the current processes on the system. Users can view the process ID, terminal associated, the time the process has taken, and the command that initiated the process. This utility is commonly used for system monitoring, managing how processes are running on your machine, and checking resource usages. It is very useful for system administrators for checking the status of running processes, identifying performance bottlenecks, and stopping processes that are not responding or are malicious.",
+    "capabilities": [
+        "process-monitoring",
+        "system-monitoring"
+    ]
+}

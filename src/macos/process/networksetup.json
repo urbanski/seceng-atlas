@@ -1,0 +1,13 @@
+{
+    "name": "Network Setup",
+    "filename": "networksetup",
+    "paths": [
+        "/usr/sbin/networksetup"
+    ],
+    "description": "Network Setup is a command-line utility on macOS systems that allows users to configure network settings. It is primarily used for managing network interfaces, creating and modifying networks, setting Wi-Fi options, and configuring proxies and other network-related configurations. The tool is integral for administrative tasks related to network configurations on Mac devices.",
+    "capabilities": [
+        "network-configuration",
+        "change-network",
+        "sudo"
+    ]
+}

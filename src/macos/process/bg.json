@@ -1,0 +1,12 @@
+{
+    "name": "Background Command",
+    "filename": "bg",
+    "paths": [
+        "/usr/bin/bg",
+        "/bin/bg"
+    ],
+    "description": "The 'bg' command in Unix-like operating systems is used to resume a job that is suspended (stopped), and run it in the background. This command is useful for multitasking and allows the user to continue working in the same shell without having to wait for the job to complete. The 'bg' command is typically used in conjunction with job control commands like 'jobs' which lists the current jobs, and 'fg' which brings a job to the foreground.",
+    "capabilities": [
+        "process-control"
+    ]
+}

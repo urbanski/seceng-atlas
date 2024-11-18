@@ -1,0 +1,12 @@
+{
+    "name": "Spotlight Metadata Finder",
+    "filename": "mdfind",
+    "paths": [
+        "/usr/bin/mdfind"
+    ],
+    "description": "mdfind is the command-line interface to the Spotlight engine on macOS, allowing users to perform fast searches for files based on their metadata and content. It can be used to locate files, directories, and other items on the system, providing an efficient way to query large volumes of data. The command provides various options to refine searches, such as specifying specific directories or types of files, and filtering based on file attributes or content keywords.",
+    "capabilities": [
+        "file-search",
+        "metadata-extraction"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Shred",
+    "filename": "shred",
+    "paths": [
+        "/usr/bin/shred",
+        "/usr/local/bin/shred"
+    ],
+    "description": "Shred is a command-line utility on Unix-like systems used for secure file deletion. It is designed to overwrite the contents of a file multiple times to make it harder for data recovery software to recover the data. Shred can be used to enhance privacy and security by ensuring that deleted files are irretrievably erased. It is particularly useful for deleting sensitive or confidential information. Users can specify the number of overwrite passes and the type of data used for overwriting.",
+    "capabilities": [
+        "file-deletion",
+        "data-sanitization"
+    ]
+}

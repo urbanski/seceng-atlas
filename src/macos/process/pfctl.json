@@ -1,0 +1,13 @@
+{
+    "name": "Packet Filter Control",
+    "filename": "pfctl",
+    "paths": [
+        "/sbin/pfctl"
+    ],
+    "description": "pfctl is a command line utility used to control the packet filter (PF) firewall in macOS and BSD operating systems. It provides functionalities to load, unload, and modify the firewall rules, as well as monitor the state of the firewall. pfctl is primarily used by system administrators for configuring and managing network security. Through pfctl, administrators can manipulate NAT, traffic normalization, queueing, and packet logging. This tool is essential for maintaining the integrity and security of network communications passing through the system.",
+    "capabilities": [
+        "firewall-management",
+        "network-monitoring",
+        "traffic-control"
+    ]
+}

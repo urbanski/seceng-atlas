@@ -1,0 +1,13 @@
+{
+    "name": "List Block Devices",
+    "filename": "lsblk",
+    "paths": [
+        "/usr/bin/lsblk",
+        "/bin/lsblk"
+    ],
+    "description": "lsblk lists information about all available or the specified block devices. It reads the sysfs filesystem and udev db to gather information. The command outputs details like device name, size, type, and mount points. This is highly useful for system administrators for managing disk partitions and understanding disk layouts. It does not list regular files, softwares or other non-block devices. Primarily used for diagnosing and configuring storage devices.",
+    "capabilities": [
+        "device-information",
+        "read-sensitive-info"
+    ]
+}

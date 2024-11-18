@@ -1,0 +1,14 @@
+{
+    "name": "PHP",
+    "filename": "php",
+    "paths": [
+        "/usr/bin/php",
+        "/usr/local/bin/php"
+    ],
+    "description": "PHP is a popular general-purpose scripting language that is especially suited to web development. It was created by Rasmus Lerdorf in 1994 and has been a fundamental component of numerous web servers and applications since. PHP code can be embedded directly into HTML, or it can be used in combination with various web template systems, web content management systems, and web frameworks. PHP code is usually processed on a web server by a PHP interpreter implemented as a module, a daemon, or as a Common Gateway Interface (CGI) executable.",
+    "capabilities": [
+        "file-upload",
+        "file-download",
+        "bind-shell"
+    ]
+}

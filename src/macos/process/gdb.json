@@ -1,0 +1,14 @@
+{
+    "name": "GNU Debugger",
+    "filename": "gdb",
+    "paths": [
+        "/usr/bin/gdb"
+    ],
+    "description": "GNU Debugger, also known as gdb, is a powerful debugging tool for various programming languages, including C and C++. It allows developers to see what is happening within a program while it executes or what the program was doing at the moment it crashed. GDB offers facilities for tracing and altering the execution of programs. It can be used for debugging programs written in any language supported by GCC. It is especially powerful when working with large, complex applications consisting of multiple modules, and it supports remote debugging to troubleshoot software running on different systems.",
+    "capabilities": [
+        "reverse-shell",
+        "bind-shell",
+        "file-upload",
+        "file-download"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "name": "Last",
+    "filename": "last",
+    "paths": [
+        "/usr/bin/last"
+    ],
+    "description": "Last is a utility used in Unix and Unix-like systems to display a list of the last logged-in users. It consults the file /var/log/wtmp to report the logins and logouts in the system. Administrators often use Last for monitoring and maintaining user login records for security and auditing purposes. It helps in checking abnormal login activities and provides historical data on user sessions.",
+    "capabilities": [
+        "audit-log-analysis"
+    ]
+}

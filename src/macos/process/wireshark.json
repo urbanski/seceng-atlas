@@ -1,0 +1,15 @@
+{
+    "name": "Wireshark",
+    "filename": "wireshark",
+    "paths": [
+        "/usr/local/bin/wireshark"
+    ],
+    "description": "Wireshark is a network protocol analyzer that enables users to capture and interactively browse the traffic running on a computer network. It provides deep inspection of hundreds of protocols and can capture packets over a wide number of networks, including Ethernet, WiFi, and Bluetooth. Wireshark is widely used for network troubleshooting, analysis, software and communications protocol development, and education. The tool includes features like live packet capture, offline analysis, and VoIP analysis. Users can also import and export capture files in multiple formats and use extensive filtering capabilities.",
+    "capabilities": [
+        "file-download",
+        "sudo",
+        "network-monitoring",
+        "protocol-analysis",
+        "traffic-capture"
+    ]
+}
