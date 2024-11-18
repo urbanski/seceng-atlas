@@ -21,6 +21,5 @@ jobs:
         with:
           base_dir: src/
           json_extension: .json
-          use_dot_match: falseS
-          exclude_pattern: ""
-          include_pattern: "**/*.json"
+          use_dot_match: "false"
+          use_gitignore: "false"
