@@ -1,0 +1,13 @@
+{
+    "name": "OpenSSH Secure Shell Client",
+    "filename": "ssh",
+    "paths": [
+        "/usr/bin/ssh"
+    ],
+    "description": "OpenSSH Secure Shell (SSH) client facilitates secure communication between machines over an unsecured network. It encrypts all traffic to eliminate eavesdropping, connection hijacking, and other attacks. SSH is commonly used to log into remote machines, execute commands remotely, and move files from one machine to another.",
+    "capabilities": [
+        "reverse-shell",
+        "file-upload",
+        "file-download"
+    ]
+}

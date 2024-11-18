@@ -1,0 +1,12 @@
+{
+    "name": "Printf",
+    "filename": "printf",
+    "paths": [
+        "/usr/bin/printf"
+    ],
+    "description": "Printf is a command-line utility used in Unix and Unix-like operating systems to format and print data to the standard output. It is commonly used in shell scripts to format strings according to specific requirements and to produce output that includes variable data in a controlled format. It supports a wide range of format specifications for integers, floating-point numbers, strings, and other data types. Printf is essential for generating formatted output, often used in report generation, data processing, and scripting tasks.",
+    "capabilities": [
+        "file-download",
+        "text-formatting"
+    ]
+}

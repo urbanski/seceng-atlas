@@ -1,0 +1,13 @@
+{
+    "name": "Object File Display",
+    "filename": "otool",
+    "paths": [
+        "/usr/bin/otool",
+        "/bin/otool"
+    ],
+    "description": "otool is a command line program used to display information about object files and binaries on macOS systems, specifically useful for developers and those investigating the composition of executable files. It provides capabilities to view the headers, the text, and data segments, among other things in the binary files. This is particularly used in reverse engineering and debugging of applications built for macOS and iOS platforms.",
+    "capabilities": [
+        "file-analysis",
+        "debugging"
+    ]
+}

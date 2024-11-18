@@ -1,0 +1,11 @@
+{
+    "name": "Make Directory",
+    "filename": "mkdir",
+    "paths": [
+        "/bin/mkdir"
+    ],
+    "description": "The 'mkdir' command is used for creating new directories on a filesystem. It allows users to specify the name and path where the directory should be created. Commonly used in scripting and daily file management tasks, it supports creating multiple directories at once and setting permissions through its options. 'mkdir' is essential for organizing file systems and setting up initial directory structures in Unix-like operating systems.",
+    "capabilities": [
+        "file-management"
+    ]
+}

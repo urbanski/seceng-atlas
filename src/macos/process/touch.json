@@ -1,0 +1,13 @@
+{
+    "name": "Touch",
+    "filename": "touch",
+    "paths": [
+        "/usr/bin/touch",
+        "/bin/touch"
+    ],
+    "description": "Touch is a standard Unix command-line utility that updates the access and modification times of files to the current time. If a file does not exist, it will be created empty unless it is in a directory that does not exist or in a read-only file system. Additionally, it does not modify the file contents. This command is frequently used in scripting and other automation processes to manage file timestamps.",
+    "capabilities": [
+        "file-creation",
+        "timestamp-manipulation"
+    ]
+}

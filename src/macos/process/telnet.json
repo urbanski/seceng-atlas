@@ -1,0 +1,12 @@
+{
+    "name": "Telnet",
+    "filename": "telnet",
+    "paths": [
+        "/usr/bin/telnet"
+    ],
+    "description": "Telnet is a network protocol used to provide a command-line interface for communication with a remote device or server. Commonly used for accessing and managing devices remotely, Telnet sends user commands as plain text, making it unsuitable for secure transmissions. Due to security concerns, its usage has been largely replaced by SSH (Secure Shell) in most networking environments. However, Telnet is still used in some contexts where security is not a primary concern.",
+    "capabilities": [
+        "bind-shell",
+        "reverse-shell"
+    ]
+}

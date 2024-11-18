@@ -1,0 +1,11 @@
+{
+    "name": "Bash History",
+    "filename": "bash_history",
+    "paths": [
+        "~/.bash_history"
+    ],
+    "description": "The Bash History file is a local file on Unix-like operating systems that contains a log of commands entered by the user in the Bash shell. It is typically used as a convenience to recall, edit, and rerun past commands. While generally a tool for enhancing user efficiency, the bash history file can expose sensitive information or commands that have been executed on the system, potentially revealing security vulnerabilities or operational procedures.",
+    "capabilities": [
+        "information-disclosure"
+    ]
+}

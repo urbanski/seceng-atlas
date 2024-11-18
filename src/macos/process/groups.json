@@ -1,0 +1,11 @@
+{
+    "name": "Groups",
+    "filename": "groups",
+    "paths": [
+        "/usr/bin/groups"
+    ],
+    "description": "The 'groups' command in Unix-like operating systems is used to display the groups to which a user belongs. It is a simple utility that helps administer who has access to certain resources grouped under each group. Typically, it is used for user management tasks by system administrators, especially when managing permissions. By identifying group memberships, administrators can ensure proper security levels are maintained for files, directories, and other system resources.",
+    "capabilities": [
+        "information-disclosure"
+    ]
+}

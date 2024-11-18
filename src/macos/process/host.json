@@ -1,0 +1,12 @@
+{
+    "name": "Host Name Query",
+    "filename": "host",
+    "paths": [
+        "/usr/bin/host"
+    ],
+    "description": "The 'host' program is used for DNS lookups. It is commonly employed to find the IP addresses associated with a hostname. Users can also find out other details about domains using various DNS records such as MX records. Useful in network diagnostics and administration, it allows users to query different DNS servers to trace potential issues with domain resolution. The command outputs detailed information that can possibly be used for gathering intelligence during reconnaissance phases of a cyber attack.",
+    "capabilities": [
+        "network-reconnaissance",
+        "info-gathering"
+    ]
+}

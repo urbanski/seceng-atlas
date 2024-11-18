@@ -1,0 +1,12 @@
+{
+    "name": "Network Information Query Tool",
+    "filename": "nslookup",
+    "paths": [
+        "/usr/bin/nslookup"
+    ],
+    "description": "nslookup is a network administration command-line tool used for querying the Domain Name System (DNS) to obtain domain name or IP address mapping, or other specific DNS records. It is helpful in diagnosing DNS infrastructure issues and for obtaining detailed DNS information. nslookup has interactive and non-interactive modes, making it versatile for different types of queries. It can be used to find the mail servers of a domain, the domain name associated with an IP address, or any other DNS record.",
+    "capabilities": [
+        "information-gathering",
+        "network-analysis"
+    ]
+}

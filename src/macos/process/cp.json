@@ -1,0 +1,11 @@
+{
+    "name": "Copy",
+    "filename": "cp",
+    "paths": [
+        "/bin/cp"
+    ],
+    "description": "The 'cp' command is used to copy files and directories from one location to another on a Unix-like operating system. This utility is frequently utilized for backing up files, manipulating file trees, or transferring data between directories. Users can specify various options such as preserving attributes, handling symbolic links, and controlling overwrite behavior.",
+    "capabilities": [
+        "file-manipulation"
+    ]
+}

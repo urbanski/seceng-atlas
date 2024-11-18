@@ -1,0 +1,12 @@
+{
+    "name": "Remove Directory",
+    "filename": "rmdir",
+    "paths": [
+        "/bin/rmdir",
+        "/usr/bin/rmdir"
+    ],
+    "description": "rmdir is a command-line utility used to remove empty directories in Unix-like operating systems. It is typically employed when a user needs to delete a directory but not its contents recursively. The command will fail if the specified directory is not empty, ensuring that users do not accidentally delete files. rmdir helps maintain file system organization by allowing the removal of only those directories that are no longer needed and are empty.",
+    "capabilities": [
+        "file-management"
+    ]
+}

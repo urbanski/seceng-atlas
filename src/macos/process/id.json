@@ -1,0 +1,11 @@
+{
+    "name": "ID Command",
+    "filename": "id",
+    "paths": [
+        "/usr/bin/id"
+    ],
+    "description": "The id command in Unix and Unix-like systems prints user and group information for the specified user, or the current user if no user is specified. This includes user ID, group ID, and the groups to which the user belongs. It is useful for both system administrators and users to determine user access and rights on the system.",
+    "capabilities": [
+        "user-information"
+    ]
+}

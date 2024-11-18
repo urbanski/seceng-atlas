@@ -1,0 +1,11 @@
+{
+    "name": "IP Address Display",
+    "filename": "ip",
+    "paths": [
+        "/usr/sbin/ip"
+    ],
+    "description": "The 'ip a' command is used in Unix-based operating systems to display information about all network interfaces currently up and showing an IP address. It is typically used for diagnosing network issues and configuring network interfaces. It can display various network interface parameters such as IP addresses, MAC addresses, and the state of the network device (up or down).",
+    "capabilities": [
+        "network-info"
+    ]
+}

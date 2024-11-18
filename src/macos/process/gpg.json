@@ -1,0 +1,15 @@
+{
+    "name": "GNU Privacy Guard",
+    "filename": "gpg",
+    "paths": [
+        "/usr/local/bin/gpg",
+        "/usr/bin/gpg"
+    ],
+    "description": "GNU Privacy Guard (GPG) is a free and open-source implementation of the OpenPGP standard, used for encrypting and signing data and communications. It serves as a tool to provide secure communication and data storage. GPG assists in encrypting files, directories, and emails to prevent unauthorized access or eavesdropping. It can also be used to create digital signatures that verify the sender's identity and ensure that the data has not been altered in transit. Users primarily deploy GPG for secure messaging and managing public and private keys in a public key infrastructure (PKI). The software supports multiple encryption techniques, providing robust security measures against common hacking techniques.",
+    "capabilities": [
+        "file-encryption",
+        "file-decryption",
+        "message-signature",
+        "identity-verification"
+    ]
+}

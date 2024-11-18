@@ -1,0 +1,12 @@
+{
+    "name": "Kernel Extension Status",
+    "filename": "kextstat",
+    "paths": [
+        "/usr/sbin/kextstat"
+    ],
+    "description": "kextstat is a command-line utility in macOS that displays the status of kernel extensions (kexts) currently loaded in the system. It provides information about each kext, including its bundle ID, version, and load address, among others. This utility is essential for troubleshooting kernel-level issues and ensuring that only valid kexts are loaded. It helps in identifying potentially malicious or outdated extensions that could affect system stability or security.",
+    "capabilities": [
+        "system-monitoring",
+        "information-disclosure"
+    ]
+}

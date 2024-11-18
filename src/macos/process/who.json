@@ -1,0 +1,12 @@
+{
+    "name": "Who Command",
+    "filename": "who",
+    "paths": [
+        "/usr/bin/who"
+    ],
+    "description": "The 'who' command in macOS and other Unix-like operating systems is used to display information about users who are currently logged on to the system. It provides details such as username, terminal line, login time, and remote host. This command is utilized for system administration to monitor user activity and verify logged-in users. It can be helpful in both securing and auditing user access.",
+    "capabilities": [
+        "system-monitoring",
+        "user-audit"
+    ]
+}

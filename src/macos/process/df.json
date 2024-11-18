@@ -1,0 +1,11 @@
+{
+    "name": "Disk Space Viewer",
+    "filename": "df",
+    "paths": [
+        "/bin/df"
+    ],
+    "description": "df, or disk free, is a command-line utility used to display the amount of available disk space for file systems on which the user has appropriate read access. It provides a summary of used and available space in a tabulated format, typically listing the file system, used space, available space, use percentage, and mount point. This tool is crucial for system administrators and users to monitor and manage disk usage effectively, ensuring the system does not run out of space unexpectedly.",
+    "capabilities": [
+        "file-read"
+    ]
+}

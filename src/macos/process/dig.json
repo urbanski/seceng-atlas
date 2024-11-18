@@ -1,0 +1,11 @@
+{
+    "name": "DNS lookup utility",
+    "filename": "dig",
+    "paths": [
+        "/usr/bin/dig"
+    ],
+    "description": "dig (Domain Information Groper) is a flexible tool for interrogating DNS name servers. It performs DNS lookups and displays the answers that are returned from the queried servers. dig is used to probe DNS servers and to troubleshoot DNS related issues. It provides detailed reports and is useful for network troubleshooting. It supports various types of DNS queries, such as A, MX, TXT, etc. and can trace the path DNS requests take to resolve a given domain name. This utility is frequently used by network administrators for DNS testing and diagnosis.",
+    "capabilities": [
+        "network-reconnaissance"
+    ]
+}

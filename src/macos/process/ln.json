@@ -1,0 +1,12 @@
+{
+    "name": "Link",
+    "filename": "ln",
+    "paths": [
+        "/bin/ln",
+        "/usr/bin/ln"
+    ],
+    "description": "The ln command is used to create links between files. By default, it creates hard links; with the -s option, it creates symbolic (soft) links. It is commonly used in Unix-like operating systems to create pointers from one file or directory to another location. This can be useful for organization, saving space, or creating shared files across multiple locations without duplicating data.",
+    "capabilities": [
+        "file-management"
+    ]
+}

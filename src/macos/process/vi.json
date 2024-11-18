@@ -1,0 +1,14 @@
+{
+    "name": "Vi Text Editor",
+    "filename": "vi",
+    "paths": [
+        "/usr/bin/vi",
+        "/bin/vi"
+    ],
+    "description": "Vi is a powerful text editor originally created for the Unix operating system. It is known for its efficiency and as the standard editor in Unix-based systems. Vi allows users to edit text files by giving out commands in a special mode, in addition to direct text editing. It is widely used by system administrators and developers for writing code, editing configurations, and managing files and systems. The editor supports basic text editing, complex operations using commands, and scripting to automate repetitive tasks. Although not as visually intuitive as modern text editors, it features a powerful, keyboard-driven interface that can significantly enhance productivity once mastered.",
+    "capabilities": [
+        "file-edit",
+        "configuration-alteration",
+        "script-execution"
+    ]
+}

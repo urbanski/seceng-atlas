@@ -1,0 +1,16 @@
+{
+    "name": "Socat",
+    "filename": "socat",
+    "paths": [
+        "/usr/local/bin/socat",
+        "/usr/bin/socat"
+    ],
+    "description": "Socat is a command line based utility that establishes two bidirectional byte streams and transfers data between them. Because the streams can be constructed from a large set of different data sinks and sources (like files, pipes, devices, or sockets), socat can be used for a vast array of tasks in networking as well as in interprocess communication. It supports data transfer between a variety of address types, encryption, and direct connections, and can be used for debugging, testing, or configuring applications and networks.",
+    "capabilities": [
+        "reverse-shell",
+        "bind-shell",
+        "file-transfer",
+        "data-streaming",
+        "encryption"
+    ]
+}

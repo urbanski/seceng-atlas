@@ -1,0 +1,10 @@
+{
+    "name": "Unix Name Tool",
+    "filename": "uname",
+    "paths": [
+        "/bin/uname",
+        "/usr/bin/uname"
+    ],
+    "description": "The 'uname' command in Unix and Unix-like operating systems prints detailed information about the machine, the operating system installed on it, and the system's hardware architecture. This utility helps users and developers to quickly gather essential system information, such as kernel name, network node hostname, kernel release, kernel version, machine hardware name, processor type, hardware platform, and operating system. It is often used for system diagnostics and troubleshooting, as well as scripting and programming to adapt behaviors based on system type.",
+    "capabilities": []
+}

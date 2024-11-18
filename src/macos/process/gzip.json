@@ -1,0 +1,13 @@
+{
+    "name": "GNU Zip",
+    "filename": "gzip",
+    "paths": [
+        "/usr/bin/gzip",
+        "/bin/gzip"
+    ],
+    "description": "gzip is a software application used for file compression and decompression. Utilizing the Lempel-Ziv coding (LZ77), gzip replaces similar strings of data within a file with shorter strings to make the file size smaller. It's commonly used in combination with tar for creating compressed archives. gzip itself does not include capabilities for multiple file archiving, however, it can be effectively used for single file compression. Its high compression ratio and fast decompression make it widely used in Unix and Linux distributions for compressing single files or as a filter in pipelines.",
+    "capabilities": [
+        "file-compression",
+        "file-decompression"
+    ]
+}

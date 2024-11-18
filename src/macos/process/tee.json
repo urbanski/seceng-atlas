@@ -1,0 +1,11 @@
+{
+    "name": "Tee",
+    "filename": "tee",
+    "paths": [
+        "/usr/bin/tee"
+    ],
+    "description": "The tee program reads standard input and writes it to both standard output and one or more files. It effectively allows for splitting the output of a program so that it can be both viewed in real-time and saved in a file. This utility is commonly used in command line pipelines to debug or monitor the output of processes. As an example, it's useful for logging the outputs while maintaining the usual flow of output on the terminal. The command is named after the T-split fitting used in plumbing which has a similar dual-output function.",
+    "capabilities": [
+        "file-write"
+    ]
+}

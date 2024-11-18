@@ -1,0 +1,13 @@
+{
+    "name": "ulimit",
+    "filename": "ulimit",
+    "paths": [
+        "/bin/ulimit",
+        "/usr/bin/ulimit"
+    ],
+    "description": "ulimit is a shell built-in command used to control the resources available to the shell and to processes started by it. It can be utilized to limit user processes, such as the maximum file size, the maximum size of virtual memory, the maximum number of file locks, and others. Administrators use ulimit to optimize and secure their systems by preventing a single user from consuming too many resources, which could degrade performance or stability of the entire system. Although typically used for limiting resource usage, it could potentially be abused by attackers to modify resource limits and impact system behavior.",
+    "capabilities": [
+        "resource-management",
+        "modify-system-limits"
+    ]
+}

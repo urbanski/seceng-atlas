@@ -1,0 +1,11 @@
+{
+    "name": "AT Command Scheduler",
+    "filename": "at",
+    "paths": [
+        "/usr/bin/at"
+    ],
+    "description": "AT is a command-line utility on macOS that schedules other commands or scripts to be executed at a specified time in the future. Users can use AT to schedule jobs that run only once at a specified time, making it useful for automating tasks such as updates or backup operations. It works by accepting a time specification and one or more commands that it queues up for execution at that time. The at utility reads commands from standard input or a specified file. The jobs created by at are executed with the permissions of the user who created them.",
+    "capabilities": [
+        "job-scheduling"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "name": "fdisk",
+    "filename": "fdisk",
+    "paths": [
+        "/sbin/fdisk"
+    ],
+    "description": "fdisk is a command-line utility used to manipulate disk partition tables. It is commonly employed for creating, deleting, resizing, checking, copying, and moving disk partitions. It also provides functionalities to manage disk labels and types. While not a partition editing tool that offers GUI support, it is very powerful due to its thorough nature in handling disk partitions. Typically used by system administrators for disk partitioning tasks.",
+    "capabilities": [
+        "sudo"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Tmux",
+    "filename": "tmux",
+    "paths": [
+        "/usr/bin/tmux",
+        "/usr/local/bin/tmux"
+    ],
+    "description": "Tmux is a terminal multiplexer that allows users to access multiple separate terminal sessions inside a single terminal window or remote terminal session. It allows control over attached sessions, making it possible to detach and reattach sessions from a terminal. It is used for a resilient and flexible terminal environment, and it aids in the management of multiple command line programs from a single interface without using additional graphical interfaces.",
+    "capabilities": [
+        "session-management",
+        "terminal-multiplexing"
+    ]
+}

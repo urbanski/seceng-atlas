@@ -1,0 +1,14 @@
+{
+    "name": "UnRAR",
+    "filename": "unrar",
+    "paths": [
+        "/usr/local/bin/unrar",
+        "/usr/bin/unrar",
+        "/opt/homebrew/bin/unrar"
+    ],
+    "description": "UnRAR is a program used to extract files from archives created with the RAR compression algorithm. It supports multiple archive formats and provides features such as repairing damaged files, testing archives for errors, and managing encrypted archives. UnRAR is commonly used for unpacking downloaded files or transferring large batches of files in a compressed format to save space and improve transfer speed.",
+    "capabilities": [
+        "file-download",
+        "file-upload"
+    ]
+}

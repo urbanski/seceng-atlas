@@ -1,0 +1,12 @@
+{
+    "name": "htop",
+    "filename": "htop",
+    "paths": [
+        "/usr/local/bin/htop"
+    ],
+    "description": "htop is an interactive process viewer for Unix systems. It is a text-mode application (for console or X terminals) and requires ncurses. htop provides a more user-friendly and readable view of system processes than the traditional top command. It displays a list of processes running on the system along with useful information on their CPU and memory utilization. Users can interact with processes from within htop, including killing processes or changing their niceness level. htop supports mouse operations, and it is customizable, allowing users to change the display and the fields that are shown.",
+    "capabilities": [
+        "process-view",
+        "process-management"
+    ]
+}

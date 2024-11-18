@@ -1,0 +1,13 @@
+{
+    "name": "Mount Utility",
+    "filename": "mount",
+    "paths": [
+        "/sbin/mount"
+    ],
+    "description": "The mount utility in macOS is used to attach filesystems to specific points in the directory tree, also known as mounting. It facilitates access to filesystems on different devices such as hard drives, CD-ROMs, or networked devices. Users can use mount to manually mount filesystems or view the mounted filesystems on their machines. The utility often requires administrative privileges to operate and can mount a variety of filesystem types, which is crucial for system administration.",
+    "capabilities": [
+        "file-system-access",
+        "privilege-escalation",
+        "sudo"
+    ]
+}

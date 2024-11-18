@@ -1,0 +1,11 @@
+{
+    "name": "Unmount",
+    "filename": "umount",
+    "paths": [
+        "/sbin/umount"
+    ],
+    "description": "umount is a utility in Unix-like operating systems that detaches the file system from the file hierarchy. It prevents further access to the files on that file system until it is mounted again. The utility is crucial for system administration, allowing the safe detachment of file systems without risking data corruption. Usage of umount typically requires administrative privileges, as it modifies the system's hardware configuration.",
+    "capabilities": [
+        "sudo"
+    ]
+}

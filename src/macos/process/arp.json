@@ -1,0 +1,12 @@
+{
+    "name": "ARP",
+    "filename": "arp",
+    "paths": [
+        "/usr/sbin/arp"
+    ],
+    "description": "ARP (Address Resolution Protocol) is utilized to convert between network level addresses and link level addresses, such as translating IP addresses into MAC addresses. It's usually employed to identify the MAC address of a network node given its IP address. This utility can be used to display and modify entries in the ARP cache on a network system.",
+    "capabilities": [
+        "network-information",
+        "network-manipulation"
+    ]
+}

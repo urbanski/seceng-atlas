@@ -1,0 +1,12 @@
+{
+    "name": "Nohup",
+    "filename": "nohup",
+    "paths": [
+        "/usr/bin/nohup"
+    ],
+    "description": "Nohup, short for 'no hang up,' is a POSIX command used to run another command that will continue running in the background even after the user has logged out from the system. It is commonly utilized to ensure that critical processes are not terminated unintentionally and continue executing even after the initiating terminal is closed. The command essentially detaches the process from the terminal and redirects the output to a file, allowing for long-running processes to continue operating uninterrupted on servers or in batch jobs.",
+    "capabilities": [
+        "process-manipulation",
+        "detach-process"
+    ]
+}

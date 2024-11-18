@@ -1,0 +1,11 @@
+{
+    "name": "write to file",
+    "filename": "w",
+    "paths": [
+        "/usr/bin/w"
+    ],
+    "description": "The 'w' command in macOS is used to display information about the users currently on the machine, showing who is logged on and what they are doing. It provides details such as user name, tty, the IP from which they are logging in, login time, idle time, and current command. This utility is helpful for administrators to get an overview of user activity on a system at any given moment.",
+    "capabilities": [
+        "user-monitoring"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "name": "IP Command Utility",
+    "filename": "ip",
+    "paths": [
+        "/usr/bin/ip",
+        "/sbin/ip"
+    ],
+    "description": "The 'ip' command is used for showing and manipulating routing, devices, policy routing, and tunnels. It provides a simple way to view and change the network configuration of the host it's executed on. It is typically used in Linux environments to handle the tasks that historically were handled by older utilities such as ifconfig, route, etc. This tool is essential for network administrators and is used extensively in scripts that automate network configurations.",
+    "capabilities": [
+        "network-configuration",
+        "network-information",
+        "sudo"
+    ]
+}

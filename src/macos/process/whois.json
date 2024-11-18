@@ -1,0 +1,12 @@
+{
+    "name": "Whois",
+    "filename": "whois",
+    "paths": [
+        "/usr/bin/whois"
+    ],
+    "description": "Whois is a command-line utility that is used to query databases that store the registered users or assignees of an Internet resource, such as a domain name, an IP address block, or an autonomous system. It can provide information about a domain or IP address, such as the registrant's name, organization, and contact details. Whois is used extensively for various network administration and security purposes, helping to identify network owners and troubleshoot issues.",
+    "capabilities": [
+        "information-gathering",
+        "network-analysis"
+    ]
+}

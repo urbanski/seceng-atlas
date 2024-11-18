@@ -1,0 +1,12 @@
+{
+    "name": "Hostname",
+    "filename": "hostname",
+    "paths": [
+        "/bin/hostname",
+        "/usr/bin/hostname"
+    ],
+    "description": "Hostname is a utility in Unix and Unix-like operating systems such as macOS that is used to either display the current host, domain or node name of the system, or to set it. This tool allows users to determine the system identifier that is known to other machines on the network. It can be useful for system administrators when configuring or maintaining network-related settings and security components. The tool is simple, typically used in shell scripting and network troubleshooting.",
+    "capabilities": [
+        "network-information"
+    ]
+}

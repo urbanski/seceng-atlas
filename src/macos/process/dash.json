@@ -1,0 +1,12 @@
+{
+    "name": "Debian Almquist Shell",
+    "filename": "dash",
+    "paths": [
+        "/bin/dash"
+    ],
+    "description": "Dash is a Unix shell, which is a direct descendant of the NetBSD version of the Almquist Shell (ash). It is a lightweight POSIX-compliant shell that aims to be faster and smaller in size than its counterpart Bash. Dash primarily functions as a scripting shell and is used in many systems for script execution rather than interactive tasks. Though it does not provide as many features as Bash, it is still widely used in various Linux distributions, particularly in Debian-based systems for system scripts and is the default `/bin/sh`.",
+    "capabilities": [
+        "script-execution",
+        "sudo"
+    ]
+}

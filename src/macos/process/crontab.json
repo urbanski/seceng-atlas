@@ -1,0 +1,12 @@
+{
+    "name": "Crontab Editor",
+    "filename": "crontab",
+    "paths": [
+        "/usr/bin/crontab"
+    ],
+    "description": "Crontab is used to schedule periodic tasks that run at fixed times, dates, or intervals on Unix and Unix-like systems. Users can edit their individual crontab entries which are used to schedule tasks like scripts or commands. It is commonly used for system maintenance or administration tasks, such as backups and system updates. The crontab command provides options to list, edit, or remove cron jobs, based on the user's permission level. Access to this command can potentially be abused to schedule malicious tasks.",
+    "capabilities": [
+        "limited-suid",
+        "schedule-tasks"
+    ]
+}

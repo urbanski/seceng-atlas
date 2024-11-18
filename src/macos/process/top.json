@@ -1,0 +1,13 @@
+{
+    "name": "top - Process Viewer",
+    "filename": "top",
+    "paths": [
+        "/usr/bin/top",
+        "/bin/top"
+    ],
+    "description": "The 'top' command provides a dynamic real-time view of a running system. It can display system summary information as well as a list of tasks currently being managed by the Linux kernel. The display is sorted by CPU usage, allowing users to quickly identify resource-hungry processes that may be affecting system performance. The interface is interactive, and users can adjust the order of the display and customize how processes are shown. This tool is valuable for system administrators for monitoring and tuning system performance.",
+    "capabilities": [
+        "monitor-processes",
+        "view-system-info"
+    ]
+}

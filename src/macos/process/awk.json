@@ -1,0 +1,13 @@
+{
+    "name": "AWK",
+    "filename": "awk",
+    "paths": [
+        "/usr/bin/awk",
+        "/bin/awk"
+    ],
+    "description": "AWK is a versatile programming language designed for pattern scanning and processing. AWK is particularly well-suited for handling structured text files and generating formatted reports. It excels in tasks such as text processing, string manipulation, and data extraction and reporting. AWK scripts are often utilized for processing large files of data, transforming data formats, or performing complex aggregations and summaries. AWK can also be used to perform arithmetic operations and basic data analysis tasks, making it widely applicable in various utility scripting scenarios across Linux and Unix systems.",
+    "capabilities": [
+        "file-download",
+        "file-upload"
+    ]
+}

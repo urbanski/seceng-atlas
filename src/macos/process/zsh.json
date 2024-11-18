@@ -1,0 +1,14 @@
+{
+    "name": "Z Shell",
+    "filename": "zsh",
+    "paths": [
+        "/bin/zsh",
+        "/usr/bin/zsh"
+    ],
+    "description": "Zsh is a powerful command line interpreter for UNIX systems. It is designed for interactive use, although it is also a powerful scripting language. Many of the useful features of bash, ksh, and tcsh were incorporated into zsh; many original features were added. The z-shell is a command interpreter usable as an interactive login shell and as a shell script command processor. Zsh is more scriptable and extensible than bash. Zsh is noted for its robust command-line completion system.",
+    "capabilities": [
+        "reverse-shell",
+        "sudo",
+        "file-manipulation"
+    ]
+}

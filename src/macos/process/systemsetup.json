@@ -1,0 +1,13 @@
+{
+    "name": "System Setup Utility",
+    "filename": "systemsetup",
+    "paths": [
+        "/usr/sbin/systemsetup"
+    ],
+    "description": "The System Setup utility allows configuration and setup options for macOS systems from the command line. It is used to manage a variety of system settings including network settings, startup disk preferences, time and date settings, among others. This utility is powerful for system administrators for automating deployment and maintenance tasks on macOS devices.",
+    "capabilities": [
+        "system-configuration",
+        "network-setup",
+        "device-setup"
+    ]
+}

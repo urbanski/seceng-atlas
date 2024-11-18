@@ -1,0 +1,12 @@
+{
+    "name": "Cron",
+    "filename": "cron",
+    "paths": [
+        "/usr/sbin/cron"
+    ],
+    "description": "Cron is a time-based job scheduler in Unix-like computer operating systems. Users that set up and maintain software environments use cron to schedule jobs (commands or shell scripts) to run periodically at fixed times, dates, or intervals. It typically automates system maintenance or administration—though its general-purpose nature makes it useful for things like downloading files and sending email at scheduled times. It is most suitable for scheduling repetitive tasks.",
+    "capabilities": [
+        "scheduled-tasks",
+        "system-maintenance-automation"
+    ]
+}

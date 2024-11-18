@@ -1,0 +1,11 @@
+{
+    "name": "Which",
+    "filename": "which",
+    "paths": [
+        "/usr/bin/which"
+    ],
+    "description": "which is a command-line utility that shows the full path of shell commands, allowing the user to locate the executable file associated with a given command name. It searches the user's path, an environment variable specifying a set of directories where executable programs are located, and displays the path names of files that would be executed in the current environment. It is helpful in cases where multiple versions of a command are present on the system, and the user needs to know which version will be executed when the command name is entered.",
+    "capabilities": [
+        "command-location"
+    ]
+}

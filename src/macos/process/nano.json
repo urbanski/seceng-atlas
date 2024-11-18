@@ -1,0 +1,12 @@
+{
+    "name": "GNU Nano",
+    "filename": "nano",
+    "paths": [
+        "/usr/bin/nano",
+        "/usr/local/bin/nano"
+    ],
+    "description": "GNU Nano is an easy-to-use text editor originally designed as a replacement for Pico, the editor of the Pine email client. Unlike most complex Unix editors, Nano provides a straightforward, user-friendly interface that is ideal for new users. It is useful for creating and modifying text files directly within the command line. Nano offers features like search and replace, go to line and column number, auto-indentation, and filename tab completion. It is often used for editing system configuration files and writing simple texts.",
+    "capabilities": [
+        "file-edit"
+    ]
+}

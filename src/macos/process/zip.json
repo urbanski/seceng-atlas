@@ -1,0 +1,12 @@
+{
+    "name": "Zip Archiver",
+    "filename": "zip",
+    "paths": [
+        "/usr/bin/zip"
+    ],
+    "description": "Zip is a utility program to package and compress (archive) files. It can manage archives in the .zip format, and supports various levels of compression. Zip is widely used for creating compressed backups, distributing software packages, and managing file storage space. Users can use zip to bundle together files and directories, optionally applying compression to save space, which makes it an essential tool for system administration and file management tasks.",
+    "capabilities": [
+        "file-download",
+        "file-upload"
+    ]
+}

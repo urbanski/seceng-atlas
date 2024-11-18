@@ -1,0 +1,13 @@
+{
+    "name": "Super User",
+    "filename": "su",
+    "paths": [
+        "/usr/bin/su",
+        "/bin/su"
+    ],
+    "description": "su (super user) is a command used to switch the current user to another user during a session, provided the executing user knows the password of the target user. This command is commonly used for gaining elevated privileges, typically to the root user, allowing the execution of administrative commands. It is a critical tool in system administration, allowing for maintenance and management of user permissions and roles.",
+    "capabilities": [
+        "sudo",
+        "limited-suid"
+    ]
+}

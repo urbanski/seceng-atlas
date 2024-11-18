@@ -1,0 +1,11 @@
+{
+    "name": "Ping",
+    "filename": "ping",
+    "paths": [
+        "/sbin/ping"
+    ],
+    "description": "Ping is a network administration utility used to test the reachability of a host on an IP network and to measure the round-trip time for messages sent from the originating host to a destination. It operates by sending Internet Control Message Protocol (ICMP) Echo Request messages to the target host and waiting for an Echo Reply. It is useful for diagnosing network issues and for testing and measuring network performance. It is typically used by system administrators and is a ubiquitous tool across various operating systems.",
+    "capabilities": [
+        "network-probe"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "Bash",
+    "filename": "bash",
+    "paths": [
+        "/bin/bash",
+        "/usr/local/bin/bash"
+    ],
+    "description": "Bash, or Bourne Again SHell, is a command processor that typically runs in a text window where the user types commands that cause actions. Bash can also read and execute commands from a file, called a script. As a widely adopted shell, Bash is the default command-line interpreter on most Linux distributions, as well as macOS. It provides an interface to interact with the operating system, execute files, manage filesystems, and perform both simple and complex administrative tasks.",
+    "capabilities": [
+        "reverse-shell",
+        "bind-shell",
+        "file-upload",
+        "file-download",
+        "sudo",
+        "limited-suid"
+    ]
+}

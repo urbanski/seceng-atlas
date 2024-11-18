@@ -1,0 +1,11 @@
+{
+    "name": "Whereis Command",
+    "filename": "whereis",
+    "paths": [
+        "/usr/bin/whereis"
+    ],
+    "description": "The whereis command in macOS is used to locate the binary, source, and manual page files for a command. It searches the standard binary file directories for the specified command. By providing a quick and easy way to find various files associated with an executable, it is particularly useful for system administrators and developers trying to determine the locations of installed programs.",
+    "capabilities": [
+        "information-disclosure"
+    ]
+}

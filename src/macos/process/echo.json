@@ -1,0 +1,12 @@
+{
+    "name": "Echo Utility",
+    "filename": "echo",
+    "paths": [
+        "/bin/echo"
+    ],
+    "description": "The Echo utility is used for displaying a line of text or string that is passed as an argument. It is a fundamental command found in Unix-like operating systems and is typically used in scripting and batch files to output status text to the screen or a file, or to concatenate strings in environment variables. It can also be used to display system variables and to create text files quickly. The simplicity of echo makes it widely used for output in shells and programming languages.",
+    "capabilities": [
+        "file-download",
+        "file-upload"
+    ]
+}

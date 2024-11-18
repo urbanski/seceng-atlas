@@ -1,0 +1,12 @@
+{
+    "name": "Readlink",
+    "filename": "readlink",
+    "paths": [
+        "/usr/bin/readlink",
+        "/bin/readlink"
+    ],
+    "description": "Readlink is a command-line utility for resolving symbolic links to their original file paths. It prints the value of a symbolic link or canonical file name. This tool is typically used to find the actual path that a symbolic link points to on a filesystem. It helps in scripting and file management tasks by returning the final absolute pathname when given a relative one. Readlink is crucial in environments where multiple symbolic links are extensively used for organizing libraries or configurations.",
+    "capabilities": [
+        "file-manipulation"
+    ]
+}

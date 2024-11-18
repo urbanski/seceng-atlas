@@ -1,0 +1,11 @@
+{
+    "name": "Uptime",
+    "filename": "uptime",
+    "paths": [
+        "/usr/bin/uptime"
+    ],
+    "description": "Uptime is a command-line utility that displays the current system uptime, showing how long the system has been running without a shutdown. It also displays the number of users currently logged into the system, and the system load averages for the past 1, 5, and 15 minutes. This information is useful for system monitoring and to assess the load and usage pattern of the system over time.",
+    "capabilities": [
+        "monitoring"
+    ]
+}

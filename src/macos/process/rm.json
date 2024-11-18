@@ -1,0 +1,11 @@
+{
+    "name": "Remove",
+    "filename": "rm",
+    "paths": [
+        "/bin/rm"
+    ],
+    "description": "The rm (remove) command is used in UNIX-based systems to delete files and directories from the filesystem. Users can remove single files, multiple files, and directories. It provides options to forcefully remove files and to recursively delete directories, making it a powerful tool for cleaning up data or space. Care should be used with this command, as its actions are typically irreversible, especially when used with root privileges.",
+    "capabilities": [
+        "file-delete"
+    ]
+}

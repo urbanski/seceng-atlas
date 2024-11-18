@@ -1,0 +1,16 @@
+{
+    "name": "Nmap",
+    "filename": "nmap",
+    "paths": [
+        "/usr/local/bin/nmap",
+        "/usr/bin/nmap"
+    ],
+    "description": "Nmap (Network Mapper) is a security scanner used to discover hosts and services on a computer network by sending packets and analyzing the responses. It is widely used for network inventory, managing service upgrade schedules, and monitoring host or service uptime. Nmap can also be used to check for open ports, determine the security of a network, and find vulnerabilities within the system. It provides a variety of features for probing computer networks, including host discovery and service and operating system detection. Additionally, it can be used for network asset management and auditing, and security professionals generally use it to evaluate network security.",
+    "capabilities": [
+        "network-mapping",
+        "port-scanning",
+        "os-detection",
+        "version-detection",
+        "script-based-interaction"
+    ]
+}

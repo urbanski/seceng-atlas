@@ -1,0 +1,11 @@
+{
+    "name": "Jobs",
+    "filename": "jobs",
+    "paths": [
+        "/usr/bin/jobs"
+    ],
+    "description": "Jobs is a builtin shell command in Unix and Unix-like systems, including macOS. It provides information about active jobs managed by the shell. This command allows users to list the currently running jobs and their statuses. The command can show whether a job is running in the background or has been stopped, and allows users to control these jobs, such as bringing them to the foreground or sending them to the background.",
+    "capabilities": [
+        "process-management"
+    ]
+}

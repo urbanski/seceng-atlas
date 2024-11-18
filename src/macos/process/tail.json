@@ -1,0 +1,11 @@
+{
+    "name": "Tail",
+    "filename": "tail",
+    "paths": [
+        "/usr/bin/tail"
+    ],
+    "description": "Tail is a program on Unix and Unix-like systems used to display the contents of a file or data piped to it, dynamically displaying the last parts (typically last 10 lines) of the file. This tool is commonly used to monitor log files or any file that updates frequently. It is invaluable in watching real-time data processing like viewing live log updates, troubleshooting issues in real-time, and monitoring system activities.",
+    "capabilities": [
+        "file-read"
+    ]
+}

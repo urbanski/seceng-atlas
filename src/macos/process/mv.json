@@ -1,0 +1,11 @@
+{
+    "name": "Move",
+    "filename": "mv",
+    "paths": [
+        "/bin/mv"
+    ],
+    "description": "The 'mv' command is a utility in Unix-like operating systems used for moving and renaming files and directories. It allows a user to move one or more files or directories from one place to another. If both the source and destination are on the same filesystem, this results in a simple inode movement. If they are on different filesystems, mv performs a copy followed by a delete of the original. This command is essential for file management, helps in organizing files, and can also be used to rename files.",
+    "capabilities": [
+        "file-manipulation"
+    ]
+}

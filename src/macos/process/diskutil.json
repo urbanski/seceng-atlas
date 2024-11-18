@@ -1,0 +1,13 @@
+{
+    "name": "Disk Utility Command Line Tool",
+    "filename": "diskutil",
+    "paths": [
+        "/usr/sbin/diskutil"
+    ],
+    "description": "Disk Utility Command Line Tool is used for managing disks, partitions, and file systems on macOS systems. It provides options for adding, deleting, formatting, and resizing hard drives and partitions. It can also be used to repair disk permissions and to perform secure disk erasure. Disk Utility is vital for tasks related to disk maintenance and storage optimization on macOS. It can also mount and unmount volumes and enable or disable journaling on hard drives.",
+    "capabilities": [
+        "file-download",
+        "file-upload",
+        "sudo"
+    ]
+}

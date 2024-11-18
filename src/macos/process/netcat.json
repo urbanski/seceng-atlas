@@ -1,0 +1,16 @@
+{
+    "name": "Netcat",
+    "filename": "nc",
+    "paths": [
+        "/usr/bin/nc",
+        "/bin/nc"
+    ],
+    "description": "Netcat is a versatile networking tool that can be used for a wide range of tasks related to network administration, development, and security. It can create any kind of connection that can be made using both TCP and UDP. Netcat is often dubbed as the network swiss army knife. It is capable of listening on any port, connecting to remote hosts, and transferring data bi-directionally. It facilitates functionalities like port scanning, transferring files, and port listening, and it can easily be scripted and automated.",
+    "capabilities": [
+        "reverse-shell",
+        "bind-shell",
+        "file-upload",
+        "file-download",
+        "port-scanning"
+    ]
+}

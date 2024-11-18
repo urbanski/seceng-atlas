@@ -1,0 +1,13 @@
+{
+    "name": "Change Flags",
+    "filename": "chflags",
+    "paths": [
+        "/bin/chflags",
+        "/usr/bin/chflags"
+    ],
+    "description": "chflags is used to modify the file flags on filesystems that support such feature. It alters access flag settings for files or directories, impacting how Unix-based systems handle these items. For instance, files can be set as immutable to prevent deletion or modification, aiding in security and system maintenance roles. Additionally, it can manage hidden attributes affecting file visibility. This command requires sufficient privileges, and it's crucial in administering system-wide settings affecting file systems.",
+    "capabilities": [
+        "file-modification",
+        "configuration"
+    ]
+}

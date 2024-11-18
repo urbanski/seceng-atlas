@@ -1,0 +1,11 @@
+{
+    "name": "Less",
+    "filename": "less",
+    "paths": [
+        "/usr/bin/less"
+    ],
+    "description": "Less is a command-line utility that displays the contents of a file or a command output one page at a time. It is particularly useful for viewing large files or results that do not fit on a single screen. Less does not need to read the entire input file before starting, so with large input files it starts up faster than text editors like vi. Users can move forward and backward in the file, which is an enhancement over utilities like more. It also allows searching forwards or backwards and supports custom commands through its command prompt.",
+    "capabilities": [
+        "file-read"
+    ]
+}

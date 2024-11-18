@@ -1,0 +1,11 @@
+{
+    "name": "Stream Editor (sed)",
+    "filename": "sed",
+    "paths": [
+        "/usr/bin/sed"
+    ],
+    "description": "sed, short for stream editor, is an essential tool designed for basic text transformation on an input stream or in a file. It allows users to quickly perform simple text replacement to complex transformation. sed is non-interactive, making it extremely suitable for automatic editing tasks. It primarily operates by constructing a sequence of editing commands to apply, which is powerful for scripting or in UNIX pipelines. This tool is omnipresent in Unix-like operating systems, useful for script writing and data preprocessing.",
+    "capabilities": [
+        "file-edit"
+    ]
+}

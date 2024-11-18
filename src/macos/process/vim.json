@@ -1,0 +1,13 @@
+{
+    "name": "Vim",
+    "filename": "vim",
+    "paths": [
+        "/usr/bin/vim",
+        "/usr/local/bin/vim"
+    ],
+    "description": "Vim is a highly configurable text editor built to enable efficient text editing. It is an improved version of the vi editor distributed with most UNIX systems. Vim is often used for editing any kind of text and includes syntax highlighting, a comprehensive merge tool, and a large amount of developed plugins. It is known for its efficiency and ability to manipulate text or code by commands, which can greatly speed up the editing process.",
+    "capabilities": [
+        "file-download",
+        "file-upload"
+    ]
+}

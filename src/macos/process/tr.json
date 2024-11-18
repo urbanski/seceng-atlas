@@ -1,0 +1,11 @@
+{
+    "name": "Text Replace Utility",
+    "filename": "tr",
+    "paths": [
+        "/usr/bin/tr"
+    ],
+    "description": "The 'tr' command is used in Unix and Unix-like operating systems to translate, squeeze, and/or delete characters from standard input, writing to standard output. It is primarily used for character conversions and transforming string data in shell scripts or in command-line operations. The utility can replace specified characters or delete them, and it can also perform operations like lowercase to uppercase conversion.",
+    "capabilities": [
+        "data-manipulation"
+    ]
+}

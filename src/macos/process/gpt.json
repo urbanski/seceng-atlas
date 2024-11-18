@@ -1,0 +1,13 @@
+{
+    "name": "GPT (Generative Pre-trained Transformer)",
+    "filename": "gpt",
+    "paths": [
+        "/usr/local/bin/gpt",
+        "/opt/bin/gpt"
+    ],
+    "description": "GPT is an advanced language processing AI developed by OpenAI. It is used to understand and generate human-like text based on the input provided. Designed to assist in tasks ranging from simple text completion to full-scale content generation, it is often employed in applications requiring natural language understanding and synthetic text generation. The model is based on a neural network architecture and trained on diverse internet text. It can be utilized for a variety of applications including chatbots, automated customer support, content creation, and more.",
+    "capabilities": [
+        "file-upload",
+        "file-download"
+    ]
+}

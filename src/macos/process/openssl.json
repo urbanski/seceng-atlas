@@ -1,0 +1,17 @@
+{
+    "name": "OpenSSL",
+    "filename": "openssl",
+    "paths": [
+        "/usr/bin/openssl",
+        "/usr/local/bin/openssl",
+        "/opt/homebrew/bin/openssl"
+    ],
+    "description": "OpenSSL is a robust, commercial-grade, full-featured toolkit for the Transport Layer Security (TLS) and Secure Sockets Layer (SSL) protocols. It is widely used for secure communication over networks and the Internet. The tool provides cryptographic functions, supporting various secure cryptographic algorithms and protocols. OpenSSL is commonly used for generating RSA keys, managing certificates, creating secure tunnels, as well as testing and debugging SSL/TLS connections. It allows users to perform a multitude of SSL-related tasks, including encrypting and decrypting data, creating certificate signing requests, and verifying certificate validity.",
+    "capabilities": [
+        "file-download",
+        "file-upload",
+        "crypto-operations",
+        "private-key-operations",
+        "certificate-management"
+    ]
+}

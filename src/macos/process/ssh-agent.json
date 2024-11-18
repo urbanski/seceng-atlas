@@ -1,0 +1,12 @@
+{
+    "name": "SSH Agent",
+    "filename": "ssh-agent",
+    "paths": [
+        "/usr/bin/ssh-agent"
+    ],
+    "description": "SSH Agent is a program that holds private keys used for public key authentication (RSA, DSA, ECDSA, ED25519). The agent provides a way to use the keys stored within it to perform authentication requests without having to expose those keys to client programs. It acts as a helper to SSH clients by managing keys in a secure way and providing them to the client programs only when required for authentication purposes. This is particularly useful for automated, password-less logins and single sign-on operations across different systems.",
+    "capabilities": [
+        "private-key-storage",
+        "authentication"
+    ]
+}

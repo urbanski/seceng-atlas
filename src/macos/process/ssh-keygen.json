@@ -1,0 +1,12 @@
+{
+    "name": "SSH Key Generator",
+    "filename": "ssh-keygen",
+    "paths": [
+        "/usr/bin/ssh-keygen"
+    ],
+    "description": "SSH Key Generator (ssh-keygen) is a utility for creating secure SSH keys. SSH keys are a secure way of logging into a server with SSH as opposed to using a password. The utility facilitates generating various types of SSH keys depending on users' requirements and also offers the capability to manage keys with ease. It can produce public and private keys for SSH authentication purpose. Users can specify the size and type of the key to increase security or for compatibility purposes.",
+    "capabilities": [
+        "file-upload",
+        "file-download"
+    ]
+}

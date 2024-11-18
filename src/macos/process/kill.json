@@ -1,0 +1,11 @@
+{
+    "name": "kill",
+    "filename": "kill",
+    "paths": [
+        "/bin/kill"
+    ],
+    "description": "The kill utility sends a termination signal to processes on a Unix-like operating system, allowing users or administrators to forcefully stop running processes. It typically requires the user to specify the process ID (PID) of the target process. Kill is used mainly for stopping malfunctioning programs or scripts. It can be crucial for system administration, particularly in managing unresponsive or rogue processes. By default, it sends the SIGTERM signal, which can be overridden to send different signals for various purposes, such as SIGKILL to abruptly terminate a process.",
+    "capabilities": [
+        "process-control"
+    ]
+}

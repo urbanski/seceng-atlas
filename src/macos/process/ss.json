@@ -1,0 +1,13 @@
+{
+    "name": "Socket Statistics",
+    "filename": "ss",
+    "paths": [
+        "/usr/sbin/ss",
+        "/usr/bin/ss"
+    ],
+    "description": "The 'ss' utility is used to dump socket statistics. It serves as a modern replacement for the classic netstat tool, with a more efficient backend and a more structured display of network connections and listening ports. ss can provide information about TCP, UDP, DCCP, RAW, and Unix domain sockets. This tool is crucial for network administrators and security professionals to monitor and troubleshoot network connectivity and performance issues.",
+    "capabilities": [
+        "network-monitoring",
+        "diagnose-connections"
+    ]
+}

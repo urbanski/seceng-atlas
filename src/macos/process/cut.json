@@ -1,0 +1,11 @@
+{
+    "name": "cut",
+    "filename": "cut",
+    "paths": [
+        "/usr/bin/cut"
+    ],
+    "description": "The 'cut' command is a Unix utility that is used to extract sections from each line of input, typically from a file or input provided by a pipeline. By specifying a delimiter and a field list, 'cut' enables the user to select multiple delimited fields within each input line. It is commonly used to parse lines of text to retrieve specific data and supports several operations for specifying the portions of the text to cut out, such as character positions, byte positions, or delimited fields. 'cut' is widely used in shell scripting and data processing tasks.",
+    "capabilities": [
+        "file-read"
+    ]
+}

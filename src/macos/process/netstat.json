@@ -1,0 +1,11 @@
+{
+    "name": "Netstat",
+    "filename": "netstat",
+    "paths": [
+        "/usr/sbin/netstat"
+    ],
+    "description": "Netstat is a command-line network utility tool that displays network connections for the Transmission Control Protocol (both incoming and outgoing), routing tables, and a number of network interface statistics. It is commonly used for network troubleshooting and to gather information about the network. Netstat provides details on individual network connections, showing details such as protocol used, local IP address and port number, foreign IP address and port number, and the connection state. This information is useful in identifying active connections and listening ports.",
+    "capabilities": [
+        "network-monitoring"
+    ]
+}

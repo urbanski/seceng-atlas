@@ -1,0 +1,11 @@
+{
+    "name": "GNU Wget",
+    "filename": "wget",
+    "paths": [
+        "/usr/local/bin/wget"
+    ],
+    "description": "GNU Wget is a free utility for non-interactive download of files from the Web. It supports HTTP, HTTPS, and FTP protocols, as well as retrieval through HTTP proxies. Wget is a command-line downloader, which makes it useful for users who are accustomed to using UNIX/Linux command line interface. It can be used to download files in the background, recursively download directories, and retrieve files over basic HTTP authentication. Wget is widely used in scripts, batch jobs, and web applications for automating download processes.",
+    "capabilities": [
+        "file-download"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "name": "unalias",
+    "filename": "unalias",
+    "paths": [
+        "/bin/unalias",
+        "/usr/bin/unalias"
+    ],
+    "description": "unalias is a command-line utility used to remove aliases defined in the shell environment. It enables users to revert back to the default command settings that might be overshadowed by temporary overrides termed as 'aliases'. Users can specify one or multiple aliases to be removed, which restores the default behavior of the commands in the session. This tool is commonly found on UNIX and UNIX-like operating systems, assisting users in managing their workspace and command configurations more effectively. As it interacts with shell settings, knowledgeable use is recommended to avoid unintended command executions.",
+    "capabilities": []
+}
