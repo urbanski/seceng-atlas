@@ -1,0 +1,9 @@
+[submodule "taxonomies/attack-stix-data"]
+	path = taxonomies/attack-stix-data
+	url = https://github.com/mitre-attack/attack-stix-data.git
+[submodule "taxonomies/d3fend-ontology"]
+	path = taxonomies/d3fend-ontology
+	url = https://github.com/d3fend/d3fend-ontology.git
+[submodule "schemas/cti-stix2-json-schemas"]
+	path = schemas/cti-stix2-json-schemas
+	url = https://github.com/oasis-open/cti-stix2-json-schemas.git
